@@ -1,0 +1,74 @@
+SAMPLE RESUME - JOHN SMITH
+
+CONTACT INFORMATION
+Email: john.smith@email.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johnsmith
+GitHub: github.com/johnsmith
+
+PROFESSIONAL SUMMARY
+Experienced Data Scientist and Machine Learning Engineer with 4+ years of experience in developing and deploying machine learning models. Expert in Python, Deep Learning, and Cloud platforms. Proven track record of building AI solutions for enterprise clients.
+
+TECHNICAL SKILLS
+Programming Languages: Python, Java, SQL, R
+Machine Learning: Machine Learning, Deep Learning, TensorFlow, PyTorch, Scikit-learn
+Data Science: Data Analysis, Data Visualization, Pandas, NumPy, Matplotlib, Seaborn, Statistics
+Cloud Platforms: AWS, Docker, Kubernetes, AWS EC2, S3
+Databases: SQL, MySQL, PostgreSQL, MongoDB
+Tools & Frameworks: Git, Jenkins, CI/CD, Linux, Jupyter Notebook, Apache Spark
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist
+TechCorp Inc., New York
+January 2022 - Present
+- Developed machine learning models using TensorFlow and PyTorch for predictive analytics
+- Led NLP projects involving BERT transformers for text classification
+- Deployed models on AWS using Docker and Kubernetes
+- Improved model accuracy by 15% through feature engineering
+- Mentored junior data scientists in best practices
+- Managed datasets with 50M+ records using Pandas and Spark
+
+Data Scientist
+AI Solutions Ltd., San Francisco
+June 2020 - December 2021
+- Built deep learning models for computer vision applications using CNN
+- Implemented classification and regression models with 92% accuracy
+- Created data pipelines using Python and ETL processes
+- Performed exploratory data analysis on complex datasets
+- Presented insights to stakeholders using Tableau and Power BI
+
+Junior Data Analyst
+DataTech Startup, Austin
+July 2019 - May 2020
+- Analyzed business data and created dashboards using SQL and visualization tools
+- Performed statistical analysis and A/B testing
+- Built data models in MySQL and PostgreSQL
+- Generated reports for stakeholder decision making
+
+EDUCATION
+
+M.Tech in Computer Science & Engineering
+Indian Institute of Technology, Delhi
+2019 - Graduated with Distinction
+Thesis: Deep Learning for Image Recognition
+
+B.Tech in Information Technology
+Delhi University
+2017 - GPA: 3.8/4.0
+
+CERTIFICATIONS
+- Deep Learning Specialization (Coursera)
+- AWS Certified Machine Learning - Specialty
+- Python for Data Science (DataCamp)
+
+PROJECTS & ACHIEVEMENTS
+- Built recommendation system using collaborative filtering reducing cold-start problem by 30%
+- Implemented LSTM neural networks for time series prediction in financial domain
+- Created end-to-end ML pipeline with model deployment and monitoring
+- Contributed to open-source machine learning projects
+- Published research on neural network optimization
+
+ADDITIONAL INFORMATION
+Languages: English (Fluent), Hindi (Native)
+Interests: AI, Machine Learning, Open Source Contribution

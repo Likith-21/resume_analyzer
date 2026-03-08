@@ -1,0 +1,69 @@
+SAMPLE RESUME - MICHAEL CHEN (Web Developer)
+
+CONTACT INFORMATION
+Email: michael.chen@email.com
+Phone: (555) 345-6789
+LinkedIn: linkedin.com/in/michaelchen
+GitHub: github.com/michaelchen
+Portfolio: michaelchen.dev
+
+PROFESSIONAL SUMMARY
+Full Stack Web Developer with 6 years of experience building scalable web applications. Expert in modern JavaScript frameworks and cloud technologies. Passionate about creating responsive, user-friendly interfaces and robust backend systems.
+
+TECHNICAL SKILLS
+Frontend: JavaScript, React, Vue.js, Angular, HTML5, CSS3, SCSS, Bootstrap, Material UI, TypeScript
+Backend: Node.js, Express, Python, Django, Flask, FastAPI, Java, Spring Boot
+Databases: MongoDB, PostgreSQL, MySQL, Firebase, Redis, Elasticsearch
+Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD, Jenkins, GitHub Actions
+Tools & Frameworks: Git, Webpack, npm, yarn, GraphQL, REST API, Jest, Mocha, Playwright
+
+PROFESSIONAL EXPERIENCE
+
+Senior Full Stack Developer
+WebTech Solutions, San Francisco
+February 2021 - Present
+- Led development of microservices architecture serving 1M+ users daily
+- Built React-based SPA with TypeScript reducing bundle size by 35%
+- Developed RESTful APIs using Node.js and Express
+- Implemented CI/CD pipeline reducing deployment time by 60%
+- Mentored 4 junior developers on best practices and code standards
+- Optimized database queries improving application performance by 40%
+
+Full Stack Developer
+Digital Innovations Inc., Seattle
+July 2018 - January 2021
+- Developed full-stack web applications using React and Node.js
+- Implemented responsive design for mobile and desktop platforms
+- Created MongoDB database schemas and implemented data validation
+- Built real-time features using WebSockets
+- Handled deployment on AWS using EC2 and S3
+
+Junior Web Developer
+StartUp Dev, Austin
+June 2017 - June 2018
+- Built frontend components using React and Redux
+- Developed RESTful APIs with Flask and Python
+- Fixed bugs and implemented feature requests
+- Participated in code reviews and learned best practices
+
+EDUCATION
+
+B.S. in Computer Science
+University of Washington, Seattle
+2017 - GPA: 3.7/4.0
+
+CERTIFICATIONS
+- AWS Certified Developer - Associate
+- Complete Web Development Bootcamp (Udemy)
+- React Advanced Patterns (Frontend Masters)
+
+PROJECTS & ACHIEVEMENTS
+- Built e-commerce platform with React and Node.js (5M+ transactions/month)
+- Developed collaborative editor application with real-time sync
+- Created weather application with responsive design
+- Built blog platform with admin dashboard and CMS
+- Open-source React component library (2K+ GitHub stars)
+
+ADDITIONAL INFORMATION
+Languages: English (Native), Cantonese (Conversational)
+Interests: Web Performance, UI/UX Design, Open Source Contribution

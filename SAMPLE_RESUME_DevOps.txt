@@ -1,0 +1,75 @@
+SAMPLE RESUME - PRIYA SHARMA (DevOps Engineer)
+
+CONTACT INFORMATION
+Email: priya.sharma@email.com
+Phone: (555) 456-7890
+LinkedIn: linkedin.com/in/priyasharma
+GitHub: github.com/priyasharma
+
+PROFESSIONAL SUMMARY
+Experienced DevOps Engineer with 7+ years of expertise in cloud infrastructure, containerization, and CI/CD pipeline development. Strong background in AWS and Kubernetes. Proven ability to design scalable, reliable, and secure infrastructure for high-traffic applications.
+
+TECHNICAL SKILLS
+Cloud Platforms: AWS (EC2, S3, Lambda, RDS, CloudFormation), Azure, Google Cloud
+Containerization: Docker, Kubernetes (K8s), Helm, Docker Swarm
+CI/CD Tools: Jenkins, GitLab CI, GitHub Actions, CircleCI, Travis CI
+Infrastructure as Code: Terraform, Ansible, CloudFormation, Puppet
+Monitoring & Logging: Prometheus, Grafana, ELK Stack, CloudWatch, Splunk
+Scripting: Bash, Python, Groovy, PowerShell
+Databases: PostgreSQL, MySQL, MongoDB, Redis, DynamoDB
+Networking: VPC, Security Groups, Load Balancing, DNS, SSL/TLS
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer
+Cloud Architecture Corp., New York
+August 2020 - Present
+- Architected Kubernetes cluster managing 50+ microservices in production
+- Implemented Infrastructure as Code using Terraform reducing deployment time by 70%
+- Designed CI/CD pipeline processing 100+ deployments daily with 99.9% success rate
+- Led on-call team ensuring 99.95% system uptime
+- Implemented monitoring and alerting using Prometheus and Grafana
+- Reduced cloud infrastructure costs by $500K annually through optimization
+- Trained team on Kubernetes and container best practices
+
+DevOps Engineer
+Tech Infrastructure Ltd., San Francisco
+January 2018 - July 2020
+- Managed AWS infrastructure for high-traffic applications
+- Built and maintained CI/CD pipelines using Jenkins
+- Created Docker containers and managed Kubernetes deployments
+- Implemented security best practices and compliance measures
+- Automated infrastructure provisioning reducing manual tasks by 80%
+- Implemented disaster recovery and backup strategies
+
+Junior DevOps Engineer
+Startup Services, Seattle
+June 2016 - December 2017
+- Assisted in AWS infrastructure management
+- Learned Docker and containerization concepts
+- Helped maintain CI/CD pipelines
+- Participated in on-call rotation
+
+EDUCATION
+
+B.S. in Information Technology
+Delhi University, India
+2016 - GPA: 3.8/4.0
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)
+- AWS Solutions Architect - Professional
+- AWS DevOps Engineer - Professional
+- HashiCorp Certified: Terraform Associate
+
+PROJECTS & ACHIEVEMENTS
+- Migrated monolithic application to microservices on Kubernetes (30% improvement in scalability)
+- Designed disaster recovery solution with RPO < 1 hour and RTO < 4 hours
+- Reduced deployment time from 45 minutes to 5 minutes through CI/CD automation
+- Implemented GitOps workflow increasing deployment frequency 10x
+- Managed infrastructure for 10M+ daily active users across multiple regions
+- Mentored 5 junior DevOps engineers
+
+ADDITIONAL INFORMATION
+Languages: English (Fluent), Hindi (Native)
+Interests: Cloud Architecture, Infrastructure Automation, DevOps Culture

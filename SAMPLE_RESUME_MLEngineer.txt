@@ -1,0 +1,82 @@
+SAMPLE RESUME - SARAH ANDERSON (ML Engineer)
+
+CONTACT INFORMATION
+Email: sarah.anderson@email.com
+Phone: (555) 678-9012
+LinkedIn: linkedin.com/in/sarahanderson
+GitHub: github.com/sarahanderson
+
+PROFESSIONAL SUMMARY
+Experienced Machine Learning Engineer with 6+ years of expertise in building production ML systems. Strong background in deep learning, NLP, and model deployment. Track record of delivering ML solutions that generate business value. Passionate about ML infrastructure and scalable systems.
+
+TECHNICAL SKILLS
+Programming: Python, Java, C++, SQL
+Machine Learning: TensorFlow, PyTorch, Keras, Scikit-learn, XGBoost, LightGBM
+Deep Learning: Neural Networks, CNN, RNN, LSTM, Transformers, BERT
+NLP: Text Classification, Named Entity Recognition, Machine Translation
+Computer Vision: Object Detection, Image Classification, Segmentation
+Cloud & MLOps: AWS, Docker, Kubernetes, MLflow, Kubeflow, TensorFlow Serving
+Big Data: Spark, Hadoop, Hive, Scala
+Deployment: Flask, FastAPI, Model serving, ONNX Runtime
+
+PROFESSIONAL EXPERIENCE
+
+Senior Machine Learning Engineer
+AI Systems Inc., San Francisco
+September 2020 - Present
+- Led ML team developing recommendation engine processing 1B+ requests daily
+- Implemented BERT-based text classification model improving accuracy by 15%
+- Designed ML infrastructure for model training, testing, and deployment
+- Built MLOps pipeline reducing model deployment time from weeks to days
+- Mentored 4 ML engineers on best practices and advanced techniques
+- Implemented A/B testing framework for ML models
+- Optimized inference latency achieving <50ms response time
+
+Machine Learning Engineer
+Tech AI Solutions, Seattle
+April 2018 - August 2020
+- Developed computer vision models for image classification and detection
+- Built NLP pipeline for text processing and analysis
+- Implemented recommendation algorithms using collaborative filtering
+- Created data pipelines for ML training data preparation
+- Deployed models using TensorFlow Serving and Docker
+- Optimized model performance reducing inference time by 60%
+
+Junior Data Scientist
+ML Startup, Boston
+June 2016 - March 2018
+- Developed machine learning models for various business problems
+- Performed feature engineering and data analysis
+- Implemented classical ML algorithms
+- Contributed to data preprocessing and cleaning
+
+EDUCATION
+
+M.S. in Computer Science (ML Specialization)
+Stanford University, California
+2016 - GPA: 3.9/4.0
+
+B.S. in Mathematics with Computer Science
+Yale University, Connecticut
+2014 - GPA: 3.8/4.0
+
+CERTIFICATIONS
+- TensorFlow Developer Certificate
+- Deep Learning Specialization (Andrew Ng, Coursera)
+- AWS Machine Learning - Specialty
+
+MAJOR PROJECTS
+- Built end-to-end recommendation engine serving 50M+ users
+- Implemented real-time object detection using YOLOv5 (30 FPS)
+- Created NLP model for sentiment analysis achieving 92% accuracy
+- Designed ML infrastructure handling 1000+ models
+- Developed time series forecasting model for demand prediction
+- Built anomaly detection system for fraud prevention
+
+PUBLICATIONS
+- "Efficient Transformer Architectures for Production ML" - ML Systems Workshop 2021
+- Contributor to TensorFlow and PyTorch open-source projects
+
+ADDITIONAL INFORMATION
+Languages: English (Native), German (Fluent)
+Interests: ML Infrastructure, NLP Research, Model Optimization

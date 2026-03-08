@@ -1,0 +1,76 @@
+SAMPLE RESUME - ALICE JOHNSON (Data Scientist)
+
+CONTACT INFORMATION
+Email: alice.johnson@email.com
+Phone: (555) 234-5678
+LinkedIn: linkedin.com/in/alicejohnson
+GitHub: github.com/alicejohnson
+
+PROFESSIONAL SUMMARY
+Experienced Data Scientist with 5+ years of expertise in building machine learning models and leading data science initiatives. Proven track record of deploying AI solutions for enterprise clients. Strong background in statistics, data analysis, and deep learning frameworks.
+
+TECHNICAL SKILLS
+Programming Languages: Python, R, SQL, Scala
+Machine Learning: Machine Learning, Deep Learning, TensorFlow, Keras, PyTorch, Scikit-learn, XGBoost, Neural Networks
+Data Science: Data Analysis, Statistics, Feature Engineering, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Data Mining
+Cloud & Infrastructure: AWS, Google Cloud, Docker, Kubernetes, Lambda, S3, Big Query
+Databases: SQL, PostgreSQL, MySQL, MongoDB, Cassandra, Redshift
+Big Data: Spark, Hadoop, Hive, Pig, Airflow, ETL
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist
+Analytics Hub Corp., New York
+June 2021 - Present
+- Led ML projects generating $2M+ revenue impact through predictive analytics
+- Built deep learning models achieving 94% accuracy for classification tasks
+- Managed Big Data pipelines processing 50M+ records daily using Spark
+- Deployed models to production using Docker and Kubernetes
+- Mentored 3 junior data scientists and established ML best practices
+- Implemented feature engineering pipeline improving model performance by 20%
+
+Data Scientist
+Tech Innovations Inc., San Francisco
+January 2019 - May 2021
+- Developed machine learning models for customer churn prediction
+- Created statistical analysis framework for A/B testing
+- Built ETL pipelines using Python and Apache Airflow
+- Implemented neural networks for time series forecasting
+- Collaborated with product team on data-driven product decisions
+
+Junior Data Analyst
+Data Insights Startup, Boston
+July 2017 - December 2018
+- Performed exploratory data analysis on complex datasets
+- Created dashboards and visualizations using Tableau
+- Wrote SQL queries to extract and transform data
+- Conducted statistical analysis for business insights
+
+EDUCATION
+
+M.S. in Data Science
+Stanford University, California
+2017 - GPA: 3.9/4.0
+Specialization: Machine Learning and Statistical Learning
+
+B.S. in Statistics with Computer Science Minor
+UC Berkeley, California
+2015 - GPA: 3.8/4.0
+
+CERTIFICATIONS
+- Machine Learning Specialization (Andrew Ng, Coursera)
+- Deep Learning with TensorFlow (Coursera)
+- AWS Certified Machine Learning - Specialty
+- Google Cloud Associate Cloud Engineer
+
+PUBLICATIONS & PROJECTS
+- Published: "Efficient Neural Network Architectures for Large-Scale Data" - Machine Learning Journal
+- Built recommendation engine using collaborative filtering (improving recommendations by 25%)
+- Implemented LSTM networks for stock price prediction with 89% accuracy
+- Created ML pipeline for automated image classification (Computer Vision)
+- Contributed to open-source ML libraries and frameworks
+
+ADDITIONAL INFORMATION
+Languages: English (Native), Mandarin (Fluent)
+Interests: Deep Learning Research, AI Ethics, ML Deployment
+Awards: Employee of the Year 2021, Innovation Award 2020

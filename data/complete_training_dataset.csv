@@ -1,0 +1,916 @@
+resume_text,category,extracted_skills,source
+"Data Scientist with 4 years experience. Data Scientist with 4+ years experience in ML and Deep Learning Skills: Python, Machine Learning, Deep Learning, TensorFlow, PyTorch, Data Analysis, SQL, AWS, Pandas, NumPy, Scikit-learn, NLP, Statistical Modeling, Feature Engineering. Education: B.Tech IT.",Data Scientist,"Python, Machine Learning, Deep Learning, TensorFlow, PyTorch, Data Analysis, SQL, AWS, Pandas, NumPy, Scikit-learn, NLP, Statistical Modeling, Feature Engineering",real_resume
+"Data Scientist with 5 years experience. Senior Data Scientist with expertise in ML pipelines and BigData Skills: Python, R, Machine Learning, TensorFlow, Keras, Spark, Hadoop, SQL, Data Visualization, Tableau, Pandas, Statistics, Deep Learning, XGBoost. Education: M.S. Data Science.",Data Scientist,"Python, R, Machine Learning, TensorFlow, Keras, Spark, Hadoop, SQL, Data Visualization, Tableau, Pandas, Statistics, Deep Learning, XGBoost",real_resume
+"Web Developer with 6 years experience. Full Stack Web Developer with React and Node.js expertise Skills: JavaScript, React, Node.js, HTML, CSS, MongoDB, Express, REST API, PostgreSQL, Docker, Kubernetes, TypeScript, GraphQL, Bootstrap. Education: B.S. Computer Science.",Software Engineer,"JavaScript, React, Node.js, HTML, CSS, MongoDB, Express, REST API, PostgreSQL, Docker, Kubernetes, TypeScript, GraphQL, Bootstrap",real_resume
+"Python Developer with 1 years experience. Junior Python Developer with learning attitude and teamwork skills Skills: Python, Django, Flask, SQL, Git, REST API, HTML, CSS, Problem Solving, OOP, Testing, JavaScript, FastAPI. Education: B.S. Computer Science.",Software Engineer,"Python, Django, Flask, SQL, Git, REST API, HTML, CSS, Problem Solving, OOP, Testing, JavaScript, FastAPI",real_resume
+"DevOps Engineer with 7 years experience. Senior DevOps Engineer with Kubernetes and AWS expertise Skills: Docker, Kubernetes, AWS, Terraform, Linux, CI/CD, Jenkins, Git, Ansible, Prometheus, Grafana, Python, Bash, CloudFormation, Helm. Education: B.S. Information Technology.",Software Engineer,"Docker, Kubernetes, AWS, Terraform, Linux, CI/CD, Jenkins, Git, Ansible, Prometheus, Grafana, Python, Bash, CloudFormation, Helm",real_resume
+"ML Engineer with 6 years experience. Machine Learning Engineer building production ML systems Skills: Python, TensorFlow, PyTorch, Machine Learning, Deep Learning, Keras, NLP, Computer Vision, Docker, AWS, Scikit-learn, BERT, Transformers, Model Serving. Education: M.S. Computer Science.",Data Scientist,"Python, TensorFlow, PyTorch, Machine Learning, Deep Learning, Keras, NLP, Computer Vision, Docker, AWS, Scikit-learn, BERT, Transformers, Model Serving",real_resume
+"Backend Engineer with 5 years experience. Senior Backend Engineer with microservices and API expertise Skills: Python, Django, FastAPI, Node.js, PostgreSQL, MongoDB, Docker, Kubernetes, REST API, Microservices, System Design, AWS, Caching, Redis. Education: B.Tech IT.",Software Engineer,"Python, Django, FastAPI, Node.js, PostgreSQL, MongoDB, Docker, Kubernetes, REST API, Microservices, System Design, AWS, Caching, Redis",real_resume
+"Data Analyst with 3 years experience. Data Analyst with SQL and visualization expertise Skills: SQL, Tableau, Power BI, Python, Pandas, Excel, Data Analysis, Statistics, Matplotlib, Google Analytics, Database Design, Business Intelligence, A/B Testing. Education: B.S. Statistics.",Data Analyst,"SQL, Tableau, Power BI, Python, Pandas, Excel, Data Analysis, Statistics, Matplotlib, Google Analytics, Database Design, Business Intelligence, A/B Testing",real_resume
+"Data Engineer with 4 years experience. Data Engineer building ETL pipelines and data warehouses Skills: Python, Spark, Hadoop, SQL, ETL, Kafka, Airflow, Hive, Scala, Data Warehouse, Cloud Platforms, AWS, Big Data, Distributed Systems. Education: B.Tech Computer Science.",Data Engineer,"Python, Spark, Hadoop, SQL, ETL, Kafka, Airflow, Hive, Scala, Data Warehouse, Cloud Platforms, AWS, Big Data, Distributed Systems",real_resume
+"Frontend Developer with 3 years experience. Frontend Developer specializing in React and responsive design Skills: JavaScript, React, HTML, CSS, Vue.js, TypeScript, Git, REST API, UI/UX, Responsive Design, Bootstrap, Material UI, GraphQL, Webpack. Education: B.S. Computer Science.",Software Engineer,"JavaScript, React, HTML, CSS, Vue.js, TypeScript, Git, REST API, UI/UX, Responsive Design, Bootstrap, Material UI, GraphQL, Webpack",real_resume
+"Cloud Architect with 6 years experience. Cloud Architect designing enterprise AWS infrastructure Skills: AWS, Azure, Kubernetes, Docker, Terraform, Linux, Cloud Design, Security, Networking, Infrastructure as Code, Cloud Security, VPC, IAM, Cost Optimization. Education: M.S. Computer Science.",Cloud Architect,"AWS, Azure, Kubernetes, Docker, Terraform, Linux, Cloud Design, Security, Networking, Infrastructure as Code, Cloud Security, VPC, IAM, Cost Optimization",real_resume
+"NLP Engineer with 4 years experience. NLP Engineer developing language understanding models Skills: Python, NLP, BERT, Transformers, TensorFlow, PyTorch, Deep Learning, Spacy, NLTK, Text Processing, Named Entity Recognition, Sentiment Analysis, Machine Learning. Education: B.Tech IT.",Software Engineer,"Python, NLP, BERT, Transformers, TensorFlow, PyTorch, Deep Learning, Spacy, NLTK, Text Processing, Named Entity Recognition, Sentiment Analysis, Machine Learning",real_resume
+"Computer Vision Engineer with 3 years experience. Computer Vision Engineer building image analysis models Skills: Python, Computer Vision, Deep Learning, OpenCV, TensorFlow, PyTorch, CNN, Image Processing, Object Detection, Segmentation, Machine Learning, Keras. Education: B.S. Computer Science.",Software Engineer,"Python, Computer Vision, Deep Learning, OpenCV, TensorFlow, PyTorch, CNN, Image Processing, Object Detection, Segmentation, Machine Learning, Keras",real_resume
+"Software Engineer with 2 years experience. Software Engineer with C++ and system design knowledge Skills: C++, Python, Java, System Design, OOP, Data Structures, Algorithms, Git, Linux, Testing, Problem Solving, Multithreading, Design Patterns. Education: B.S. Computer Science.",Software Engineer,"C++, Python, Java, System Design, OOP, Data Structures, Algorithms, Git, Linux, Testing, Problem Solving, Multithreading, Design Patterns",real_resume
+"Database Administrator with 5 years experience. Database Administrator managing PostgreSQL and optimization Skills: SQL, PostgreSQL, MySQL, MongoDB, Database Design, Performance Tuning, Linux, Backup, Replication, Security, Indexing, Query Optimization, High Availability. Education: B.Tech IT.",Software Engineer,"SQL, PostgreSQL, MySQL, MongoDB, Database Design, Performance Tuning, Linux, Backup, Replication, Security, Indexing, Query Optimization, High Availability",real_resume
+"Business Intelligence Developer with 3 years experience. BI Developer creating dashboards and data models Skills: SQL, Tableau, Power BI, Python, Data Warehouse, Analytics, ETL, Data Modeling, Reporting, Excel, Google Analytics, Storytelling. Education: B.S. Statistics.",Software Engineer,"SQL, Tableau, Power BI, Python, Data Warehouse, Analytics, ETL, Data Modeling, Reporting, Excel, Google Analytics, Storytelling",real_resume
+"Cybersecurity Engineer with 4 years experience. Cybersecurity Engineer securing cloud infrastructure Skills: Python, Linux, AWS, Docker, Security, Networking, CI/CD, System Administration, Cryptography, Penetration Testing, Firewalls, VPN, Encryption. Education: B.S. Cybersecurity.",Software Engineer,"Python, Linux, AWS, Docker, Security, Networking, CI/CD, System Administration, Cryptography, Penetration Testing, Firewalls, VPN, Encryption",real_resume
+"Data Science Manager with 5 years experience. Data Science Manager leading ML teams and strategy Skills: Python, Machine Learning, Leadership, Data Strategy, Pandas, SQL, Tableau, Mentoring, Project Management, Statistics, Agile, Team Building. Education: M.S. Data Science.",Software Engineer,"Python, Machine Learning, Leadership, Data Strategy, Pandas, SQL, Tableau, Mentoring, Project Management, Statistics, Agile, Team Building",real_resume
+"Marketing Analytics with 2 years experience. Marketing Analyst with data analysis and visualization skills Skills: SQL, Google Analytics, Python, Tableau, Excel, Data Analysis, Statistics, Marketing Automation, Customer Analytics, A/B Testing, Reporting. Education: B.S. Marketing.",Data Analyst,"SQL, Google Analytics, Python, Tableau, Excel, Data Analysis, Statistics, Marketing Automation, Customer Analytics, A/B Testing, Reporting",real_resume
+"Product Manager with 3 years experience. Product Manager with data-driven decision making experience Skills: Product Strategy, Data Analysis, SQL, Analytics, Market Research, User Research, Roadmap Planning, Agile, Problem Solving, Communication, Leadership. Education: M.S. Business.",Product Manager,"Product Strategy, Data Analysis, SQL, Analytics, Market Research, User Research, Roadmap Planning, Agile, Problem Solving, Communication, Leadership",real_resume
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, SQL, Data Analysis, Tableau, Power BI, ETL, RDS, Communication, Critical Thinking, Accounting
+                job overview were seeking a data analyst to turn reports from dispatch, safety, accounting, and maintenance into actionable insights and visual dashboards. youll help drive smarter decisions across our trucking operations by translating data into strategies that improve efficiency and performance. k
+                Experience with: Python, R, C, SQL, Data Analysis, Tableau, Power BI, ETL, RDS, Communication
+                ",Data Analyst,"Python, R, C, SQL, Data Analysis, Tableau, Power BI, ETL, RDS, Communication, Critical Thinking, Accounting",synthetic_from_job
+"
+                Data Reporting Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Java, JavaScript, Go, R, C, Shell, PowerShell, HTML, Ember, SQL, Hbase, Data Modeling, GAN, Tableau
+                about wspc wspc is a cooperative of outstanding independent pharmacies. the leaders of wspc are seasoned independent pharmacy owners, and our staff has significant experience in the pharmacy business. our team members are at the heart of everything we do. at wspc, we are united in our responsibility
+                Experience with: Python, Java, JavaScript, Go, R, C, Shell, PowerShell, HTML, Ember
+                ",Software Engineer,"Python, Java, JavaScript, Go, R, C, Shell, PowerShell, HTML, Ember, SQL, Hbase, Data Modeling, GAN, Tableau",synthetic_from_job
+"
+                Data Analyst (Power BI/Python) professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, SQL, Data Analysis, Tableau, Power BI, RDS, Communication, Project Management, Agile, Scrum, Information Technology
+                data analyst power bipython employment type full time onsite 4 days annexa inc is currently working with the department of licensing and consumer protection dlcp and we are looking for an experienced and versatile project manager to help manage complex technology projects and products from initiatio
+                Experience with: Python, Go, R, C, Lua, SQL, Data Analysis, Tableau, Power BI, RDS
+                ",Data Analyst,"Python, Go, R, C, Lua, SQL, Data Analysis, Tableau, Power BI, RDS, Communication, Project Management, Agile, Scrum, Information Technology",synthetic_from_job
+"
+                Data & Reporting Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Ember, SQL, GAN, Data Analysis, Power BI, SAS, AWS, RDS, Communication, Leadership, Critical Thinking, Presentation, Attention to Detail
+                our company pharmerica overview the data reporting analyst position is responsible for leveraging data and analytics to support client strategy and partnership department operations in order to facilitate conversation on how best to support and report on various performance of the account management
+                Experience with: R, C, Ember, SQL, GAN, Data Analysis, Power BI, SAS, AWS, RDS
+                ",Software Engineer,"R, C, Ember, SQL, GAN, Data Analysis, Power BI, SAS, AWS, RDS, Communication, Leadership, Critical Thinking, Presentation, Attention to Detail",synthetic_from_job
+"
+                Data Quality Analyst (Remote Opportunity) professional with 3-5 years experience.
+                Technical Skills: Go, R, C, SQL, GAN, Power BI, Kubernetes, Git, GitHub, Kubernetes, Linux, Communication, Scrum, Git, Health
+                vetsez is seeking a data quality analyst tester to join our team supporting the data migration syndication efforts within the electronic health record modernization integration office ehrmio for the department of veterans affairs. this role is critical in ensuring the accuracy and integrity of vast 
+                Experience with: Go, R, C, SQL, GAN, Power BI, Kubernetes, Git, GitHub, Kubernetes
+                ",Software Engineer,"Go, R, C, SQL, GAN, Power BI, Kubernetes, Git, GitHub, Kubernetes, Linux, Communication, Scrum, Git, Health",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, GAN, Data Analysis, Data Visualization, RDS, Communication, Leadership, Presentation, Health, Collaboration, Culture, Writing, Extract
+                synergy family services, inc. sfs is a dynamic outpatient mental health center focused on providing strengths based, culturally proficient services to enhance the social, emotional, behavioral health and wellness of individuals and families. our goal is to help individuals and families identify and 
+                Experience with: Go, R, C, GAN, Data Analysis, Data Visualization, RDS, Communication, Leadership, Presentation
+                ",Data Analyst,"Go, R, C, GAN, Data Analysis, Data Visualization, RDS, Communication, Leadership, Presentation, Health, Collaboration, Culture, Writing, Extract",synthetic_from_job
+"
+                Data Reporting Analyst- (***YORK, PA***) professional with 3-5 years experience.
+                Technical Skills: R, C, Ember, GAN, Data Analysis, Power BI, RDS, Problem Solving, Attention to Detail, Benefits, Material Handling, Sales, Audit, Databases, Accounting
+                eastern lift truck co. data reporting analystreporting specialist york, pa must be able to physically report to office location job summary the reporting specialist will be an integral team member to our business system reporting department. this individual will primarily be responsible for generati
+                Experience with: R, C, Ember, GAN, Data Analysis, Power BI, RDS, Problem Solving, Attention to Detail, Benefits
+                ",Software Engineer,"R, C, Ember, GAN, Data Analysis, Power BI, RDS, Problem Solving, Attention to Detail, Benefits, Material Handling, Sales, Audit, Databases, Accounting",synthetic_from_job
+"
+                Product Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, Rust, R, C, Lua, SQL, Tableau, Power BI, Business Analytics, RDS, Communication, Problem Solving, Documentation, Innovation
+                who we are addepar is a global technology and data company that helps investment professionals provide the most informed, precise guidance for their clients. hundreds of thousands of users have entrusted addepar to empower smarter investment decisions and better advice over the last decade. with cli
+                Experience with: Python, Go, Rust, R, C, Lua, SQL, Tableau, Power BI, Business Analytics
+                ",Data Analyst,"Python, Go, Rust, R, C, Lua, SQL, Tableau, Power BI, Business Analytics, RDS, Communication, Problem Solving, Documentation, Innovation",synthetic_from_job
+"
+                Technical Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, Lua, SQL, Data Analysis, Data Mining, Communication, Agile, Scrum, Jira, Health, Benefits, Data Science, Banking
+                role technical data analyst location mclean, va work mode onsite employment type contract job description banking and financial experience is a must have sql _________ yrs exp data analysis __________ yrs exp who has lead team of data analyst not worked along with pm, scrum master etc etc agile exp 
+                Experience with: Python, R, C, Lua, SQL, Data Analysis, Data Mining, Communication, Agile, Scrum
+                ",Data Analyst,"Python, R, C, Lua, SQL, Data Analysis, Data Mining, Communication, Agile, Scrum, Jira, Health, Benefits, Data Science, Banking",synthetic_from_job
+"
+                Data Integration Analyst professional with 3-5 years experience.
+                Technical Skills: Go, Rust, R, Scala, C, Less, SQL, Oracle, ETL, AWS, Azure, GCP, Scala, DevOps, Git
+                location remote u.s. based employment type fulltime direct hire by partner citizenship requirement u.s. citizens or green card holders only industry banking financial services rate competitive based on experience about the role join an innovative enterprise banking project where your data integratio
+                Experience with: Go, Rust, R, Scala, C, Less, SQL, Oracle, ETL, AWS
+                ",Software Engineer,"Go, Rust, R, Scala, C, Less, SQL, Oracle, ETL, AWS, Azure, GCP, Scala, DevOps, Git",synthetic_from_job
+"
+                Business Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, Ember, Leadership, Planning, Compensation
+                job title business data analyst location jersey city, nj hybrid duration full time the it business lead analyst is a seniorlevel position responsible for liaising between business users and technologists to exchange information in a concise, logical and understandable way in coordination with the te
+                Experience with: Go, R, C, Lua, Ember, Leadership, Planning, Compensation
+                ",Data Analyst,"Go, R, C, Lua, Ember, Leadership, Planning, Compensation",synthetic_from_job
+"
+                Data Analyst I professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Express, Ember, Less, SQL, Classification, GAN, Data Visualization, Tableau, RDS, Communication, Innovation, Health
+                about equip equip is the leading virtual, evidencebased eating disorder treatment program on a mission to ensure that everyone with an eating disorder can access treatment that works. created by clinical experts in the field and people with lived experience, equip builds upon evidencebased treatment
+                Experience with: Go, R, C, Express, Ember, Less, SQL, Classification, GAN, Data Visualization
+                ",Data Analyst,"Go, R, C, Express, Ember, Less, SQL, Classification, GAN, Data Visualization, Tableau, RDS, Communication, Innovation, Health",synthetic_from_job
+"
+                Data Scientist / Analyst, Junior - FAA professional with 3-5 years experience.
+                Technical Skills: Python, Java, Go, Rust, R, MATLAB, C, SQL, GAN, Data Visualization, Tableau, Power BI, Data Mining, SAS, RDS
+                position data scientist analyst, junior faa location cobec site washington, dc salary range 60 100k security requirements must be a us citizen or a legal resident for three of the past five years. public trust cannot be granted without meeting the residency requirement. must meet eligibility require
+                Experience with: Python, Java, Go, Rust, R, MATLAB, C, SQL, GAN, Data Visualization
+                ",Data Scientist,"Python, Java, Go, Rust, R, MATLAB, C, SQL, GAN, Data Visualization, Tableau, Power BI, Data Mining, SAS, RDS",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Ember, SQL, Classification, GAN, Data Analysis, Data Visualization, Tableau, Power BI, ETL, SAS, AWS
+                about us doodie calls, llc. provides sanitation services for residential, construction sites, special events, and disaster relief. we began operations in the fall of 2018. in the first year of operation, our focus was on strategic growth throughout the tampa metropolitan area. to serve our customers
+                Experience with: Python, Go, R, C, Ember, SQL, Classification, GAN, Data Analysis, Data Visualization
+                ",Data Analyst,"Python, Go, R, C, Ember, SQL, Classification, GAN, Data Analysis, Data Visualization, Tableau, Power BI, ETL, SAS, AWS",synthetic_from_job
+"
+                Data Governance Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Express, Ember, Less, SQL, Data Modeling, GAN, Power BI, RDS, Communication, Documentation, Health
+                are you ready to join a growing team that puts a premium on productivity and has an awardwinning culture centered around transforming talented employees into effective business leaders then bhg financial is the place for you. in 2001, we started with an idea, an opportunity, and 25,000. back then, o
+                Experience with: Python, Go, R, C, Express, Ember, Less, SQL, Data Modeling, GAN
+                ",Software Engineer,"Python, Go, R, C, Express, Ember, Less, SQL, Data Modeling, GAN, Power BI, RDS, Communication, Documentation, Health",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, SQL, Statistics, SAS, Communication, Leadership, Problem Solving, Documentation, Attention to Detail, Extract, Data Science, Transform
+                job details leadstack inc. is an awardwinning, one of the nations fastestgrowing, certified minorityowned mbe staffing services provider of contingent workforce. as a recognized industry leader in contingent workforce solutions and certified as a great place to work, were proud to partner with some 
+                Experience with: Python, Go, R, C, SQL, Statistics, SAS, Communication, Leadership, Problem Solving
+                ",Data Analyst,"Python, Go, R, C, SQL, Statistics, SAS, Communication, Leadership, Problem Solving, Documentation, Attention to Detail, Extract, Data Science, Transform",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, Rust, R, C, SQL, GAN, Data Analysis, Data Visualization, RDS, Innovation, Health, Extract, Data Science, Storytelling
+                about ica international consulting associates, inc. ica is a rapidly growing business located in the washington, d.c. metro area. founded in 2009, we partner with federal agencies and large government services primes to achieve their missioncritical objectives. were a trusted advisor, delivering cut
+                Experience with: Python, Go, Rust, R, C, SQL, GAN, Data Analysis, Data Visualization, RDS
+                ",Data Analyst,"Python, Go, Rust, R, C, SQL, GAN, Data Analysis, Data Visualization, RDS, Innovation, Health, Extract, Data Science, Storytelling",synthetic_from_job
+"
+                PowerBI Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, Scala, C, Ember, SQL, Data Modeling, AWS, RDS, Scala, Communication, Critical Thinking, Attention to Detail, Benefits, Microsoft Excel, Audit
+                growing medical billing company looking for a highly motivated, critical thinking individual with effective communication skills. the powerbi data analyst role is a position supporting the client analytics division of medical billing management services. interviews to begin immediately. great benefi
+                Experience with: R, Scala, C, Ember, SQL, Data Modeling, AWS, RDS, Scala, Communication
+                ",Data Analyst,"R, Scala, C, Ember, SQL, Data Modeling, AWS, RDS, Scala, Communication, Critical Thinking, Attention to Detail, Benefits, Microsoft Excel, Audit",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Ember, SQL, Tableau, RDS, Data Warehouse, Benefits, Culture, Sales, Banking, Training
+                applicant must live in charlotte, nc or the surrounding areas job title data analysthybrid work opportunity company intro retirement clearinghouse was voted one of the top places to work by charlotte magazine in 2024 when you join the team, youll make a real difference and can learn, grow and make a
+                Experience with: Go, R, C, Ember, SQL, Tableau, RDS, Data Warehouse, Benefits, Culture
+                ",Data Analyst,"Go, R, C, Ember, SQL, Tableau, RDS, Data Warehouse, Benefits, Culture, Sales, Banking, Training",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, MATLAB, C, Express, Data Analysis, SAS, Presentation, Screen, Health, Benefits, Matlab, Load
+                the department of neurosurgery at the university of virginia is seeking a data analyst to support clinical research, particularly in advanced neuromonitoring in brain injuries and stroke. this role is pivotal in our analysis of large timeseries data critical for understanding brain function and reco
+                Experience with: Python, R, MATLAB, C, Express, Data Analysis, SAS, Presentation, Screen, Health
+                ",Data Analyst,"Python, R, MATLAB, C, Express, Data Analysis, SAS, Presentation, Screen, Health, Benefits, Matlab, Load",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Rust, R, C, Lua, Express, SQL, GAN, Data Analysis, Tableau, Presentation, Attention to Detail, Creativity, Health, Benefits
+                sony corporation of america, located in new york, ny, is the u.s. headquarters of sony group corporation, based in tokyo, japan. sonys principal u.s. businesses include sony electronics inc., sony interactive entertainment llc, sony music entertainment, sony music publishing and sony pictures entert
+                Experience with: Python, Rust, R, C, Lua, Express, SQL, GAN, Data Analysis, Tableau
+                ",Data Analyst,"Python, Rust, R, C, Lua, Express, SQL, GAN, Data Analysis, Tableau, Presentation, Attention to Detail, Creativity, Health, Benefits",synthetic_from_job
+"
+                Data Analyst, Field Planning & Analytics professional with 3-5 years experience.
+                Technical Skills: R, C, Lua, Ember, SQL, Power BI, Communication, Leadership, Project Management, Attention to Detail, Creativity, Health, Marketing, Data Science, Sales
+                job description the analyst, field planning analytics is a role which will aid in data, analytics and process reporting to help drive initiatives and strategy for field programming. the analyst will work collaboratively with our field and marketing colleagues, as well as home office employees, along
+                Experience with: R, C, Lua, Ember, SQL, Power BI, Communication, Leadership, Project Management, Attention to Detail
+                ",Data Analyst,"R, C, Lua, Ember, SQL, Power BI, Communication, Leadership, Project Management, Attention to Detail, Creativity, Health, Marketing, Data Science, Sales",synthetic_from_job
+"
+                Data Intelligence / PowerBI Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, Scala, C, SQL, Data Modeling, Power BI, ETL, Azure, RDS, Scala, Creativity, Innovation, Marketing
+                the opportunity we are seeking a skilled power bi developer to join our insights analytics team. the successful candidate will work closely with our insights analytics team to develop a suite of interactive dashboards and reports that provide critical insights into financial performance, revenue int
+                Experience with: Python, Go, R, Scala, C, SQL, Data Modeling, Power BI, ETL, Azure
+                ",Software Engineer,"Python, Go, R, Scala, C, SQL, Data Modeling, Power BI, ETL, Azure, RDS, Scala, Creativity, Innovation, Marketing",synthetic_from_job
+"
+                Sr. Analyst, Analytics & Data Products professional with 3-5 years experience.
+                Technical Skills: R, C, SQL, GAN, Data Visualization, RDS, Health, Culture, Finance
+                oneoncology is positioning community oncologists to drive the future of cancer care through a patientcentric, physiciandriven, and technologypowered model to help improve the lives of everyone living with cancer. our team is bringing together leaders to the market place to help drive oneoncologys mi
+                Experience with: R, C, SQL, GAN, Data Visualization, RDS, Health, Culture, Finance
+                ",Data Analyst,"R, C, SQL, GAN, Data Visualization, RDS, Health, Culture, Finance",synthetic_from_job
+"
+                Content and Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Ember, Less, GAN, Data Analysis, Power BI, RDS, Communication, Project Management, Attention to Detail, Collaboration, Salesforce, Sales
+                description powerstop stands out as the pioneering force within the automotive aftermarket brake sector. being part of powerstops team entails becoming a member of a company that is reshaping the industrys landscape. join us and become an integral part of a brand that is undergoing remarkable expans
+                Experience with: Go, R, C, Ember, Less, GAN, Data Analysis, Power BI, RDS, Communication
+                ",Data Analyst,"Go, R, C, Ember, Less, GAN, Data Analysis, Power BI, RDS, Communication, Project Management, Attention to Detail, Collaboration, Salesforce, Sales",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, SAS, RDS, Git, Communication, Presentation, Innovation
+                bgb group data analyst our agency bgb group is a healthcare communications agency that offers a wide range of services, including traditional pharmaceutical advertising, promotional medical education, payer marketing, and consulting services. known for excellence and professionalism, were hired as s
+                Experience with: Python, Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, SAS
+                ",Data Analyst,"Python, Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, SAS, RDS, Git, Communication, Presentation, Innovation",synthetic_from_job
+"
+                Junior Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Java, Go, R, Scala, C, SQL, Data Analysis, Data Visualization, ETL, Scala, Data Warehouse, Communication, Documentation, Attention to Detail
+                job description key responsibilities data integration assist in designing, developing, and maintaining data pipelines and etl processes to consolidate and transform data from various sources. database management support the implementation and management of databases sql, nosql and data warehouses. d
+                Experience with: Python, Java, Go, R, Scala, C, SQL, Data Analysis, Data Visualization, ETL
+                ",Data Analyst,"Python, Java, Go, R, Scala, C, SQL, Data Analysis, Data Visualization, ETL, Scala, Data Warehouse, Communication, Documentation, Attention to Detail",synthetic_from_job
+"
+                ERP Data Analyst- NEW professional with 3-5 years experience.
+                Technical Skills: R, C, SQL, Oracle, Data Analysis, Data Visualization, Tableau, Power BI, ETL, RDS, Communication, Health, Benefits, Data Warehousing, Computer Science
+                since 1875, mueller distributors have been a family run business and have built an outstanding reputation as a leading building materials distributor. we are driven to provide the highest level of customer satisfaction in all our work through outstanding quality service. we are looking for an erp da
+                Experience with: R, C, SQL, Oracle, Data Analysis, Data Visualization, Tableau, Power BI, ETL, RDS
+                ",Data Analyst,"R, C, SQL, Oracle, Data Analysis, Data Visualization, Tableau, Power BI, ETL, RDS, Communication, Health, Benefits, Data Warehousing, Computer Science",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, Express, SQL, Data Analysis, Data Visualization, Statistics, SAS, AWS, RDS, Linux, Communication
+                data analyst required qualifications as evidenced by an attached resume bachelors degree foreign equivalent or higher in computer science, biology or environmental science or related field. three 3 years of related fulltime experience in data management lifecycle activities and indepth data analysis
+                Experience with: Python, Go, R, C, Lua, Express, SQL, Data Analysis, Data Visualization, Statistics
+                ",Data Analyst,"Python, Go, R, C, Lua, Express, SQL, Data Analysis, Data Visualization, Statistics, SAS, AWS, RDS, Linux, Communication",synthetic_from_job
+"
+                Entry Level Business Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Communication, Project Management, Presentation, Documentation, Benefits, Business Analysis, Compensation
+                key responsibilities gather and document business requirements from stakeholders. analyze business processes and identify areas for improvement. develop and maintain clear project documentation, including business requirements and process flows. collaborate with technical teams to ensure requirement
+                Experience with: R, C, Communication, Project Management, Presentation, Documentation, Benefits, Business Analysis, Compensation
+                ",Data Analyst,"R, C, Communication, Project Management, Presentation, Documentation, Benefits, Business Analysis, Compensation",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, Ember, Less, GAN, Data Visualization, Power BI, Statistics, Communication, Presentation, Health, Benefits, Culture
+                we welcome you into a growing company consumer direct care network is all about caring for people. care is at our core, and we strive to live up to it every day. we provide services in 14 states across the usa, and our programs grow every year. we specialize in home and communitybased services that 
+                Experience with: Go, R, C, Lua, Ember, Less, GAN, Data Visualization, Power BI, Statistics
+                ",Data Analyst,"Go, R, C, Lua, Ember, Less, GAN, Data Visualization, Power BI, Statistics, Communication, Presentation, Health, Benefits, Culture",synthetic_from_job
+"
+                Data Analyst, Tableau Developer professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Express, SQL, GAN, Tableau, Statistics, AWS, RDS, Communication, Leadership, Documentation, Adaptability
+                city experiences is seeking a data analyst, tableau developer for our analytics operations. salary 65,00075,000 about you this person will be adaptable, dynamic, and embody city experiences respect service system. about the opportunity the analyst will play a crucial role in delivering marketing, sa
+                Experience with: Python, Go, R, C, Express, SQL, GAN, Tableau, Statistics, AWS
+                ",Data Analyst,"Python, Go, R, C, Express, SQL, GAN, Tableau, Statistics, AWS, RDS, Communication, Leadership, Documentation, Adaptability",synthetic_from_job
+"
+                Tableau Data Analyst -100% Remote professional with 3-5 years experience.
+                Technical Skills: R, C, Lua, Data Analysis, Data Visualization, Tableau, ETL, RDS, Presentation, Health, Business Intelligence, Extract, Transform, Planning, Load
+                tableau data analyst 100 remote backfill situation collaborate with project stakeholders to understand and gather business requirements. design, develop, test, and deploy robust tableau dashboards and reports that align with business requirements and provide actionable insights. research and recomme
+                Experience with: R, C, Lua, Data Analysis, Data Visualization, Tableau, ETL, RDS, Presentation, Health
+                ",Data Analyst,"R, C, Lua, Data Analysis, Data Visualization, Tableau, ETL, RDS, Presentation, Health, Business Intelligence, Extract, Transform, Planning, Load",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Java, JavaScript, Go, R, C, Data Analysis, AWS, Git, Git, Benefits, Algorithms, Data Science, Computer Science, Javascript
+                job type full time workplace type onsite at homestead, fl clearance current dod top secret clearance and eligible for sci access must be a u.s. citizen benefits medical, dental, and vision coverage, 401k matching, generous pto, paid holidays, professional training opportunities, and even pet insuran
+                Experience with: Python, Java, JavaScript, Go, R, C, Data Analysis, AWS, Git, Git
+                ",Data Analyst,"Python, Java, JavaScript, Go, R, C, Data Analysis, AWS, Git, Git, Benefits, Algorithms, Data Science, Computer Science, Javascript",synthetic_from_job
+"
+                Contract Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, REST API, GAN, Data Analysis, Tableau, AWS, RDS, Communication, Culture, Microsoft Excel, Compensation
+                request for proposals rfp contract data analyst issued by indiana legal services, inc. ils submission deadline june 5, 2025 1. introduction indiana legal services, inc. ils is a statewide, notforprofit organization that provides free legal services to eligible clients in civil cases through eight br
+                Experience with: Python, Go, R, C, Lua, REST API, GAN, Data Analysis, Tableau, AWS
+                ",Data Analyst,"Python, Go, R, C, Lua, REST API, GAN, Data Analysis, Tableau, AWS, RDS, Communication, Culture, Microsoft Excel, Compensation",synthetic_from_job
+"
+                Entry Level Business Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, SQL, Data Modeling, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, AWS, Azure
+                responsibilities collect, clean, and analyze business data to identify trends and insights. assist in developing reports, dashboards, and visualizations using tools like excel, power bi, or tableau. work with stakeholders to gather data requirements and translate them into actionable insights. suppo
+                Experience with: Python, Go, R, C, SQL, Data Modeling, GAN, Data Analysis, Data Visualization, Tableau
+                ",Data Analyst,"Python, Go, R, C, SQL, Data Modeling, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, AWS, Azure",synthetic_from_job
+"
+                Junior Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, GAN, Extract, Transform, Load, Training
+                the junior data analyst 1s primary role is to facilitate data processing for the operations team via assigned tasks, by priority level with oversight by supervisor, or designated individual. this position will report to the manager of drawback services. essential duties and responsibilities high vol
+                Experience with: R, C, GAN, Extract, Transform, Load, Training
+                ",Data Analyst,"R, C, GAN, Extract, Transform, Load, Training",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Express, Less, SQL, Data Modeling, Power BI, Statistics, AWS, RDS, Communication, Leadership, Health
+                data analyst job summary okland construction is seeking a skilled and proactive data analyst to join our dynamic team. the ideal candidate will leverage their expertise in data analytics, sql, programming, api integration, and power bi to transform complex data into actionable insights. this role al
+                Experience with: Python, Go, R, C, Express, Less, SQL, Data Modeling, Power BI, Statistics
+                ",Data Analyst,"Python, Go, R, C, Express, Less, SQL, Data Modeling, Power BI, Statistics, AWS, RDS, Communication, Leadership, Health",synthetic_from_job
+"
+                Insurance Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, GAN, RDS, Data Warehouse, Communication, Presentation, Forecasting, Databases, Process Analysis, Data Management, Compensation
+                position summary collaborates with various departments to identify data needs and create solutions. essential functions performs and manages all the steps required for analyses including requirements gathering, methodology development, data pullingprocessing, analysis and presentation performs advan
+                Experience with: Go, R, C, GAN, RDS, Data Warehouse, Communication, Presentation, Forecasting, Databases
+                ",Data Analyst,"Go, R, C, GAN, RDS, Data Warehouse, Communication, Presentation, Forecasting, Databases, Process Analysis, Data Management, Compensation",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, SQL, GAN, Data Analysis, Power BI, RDS, Communication, Leadership, Presentation, Attention to Detail, Screen, Health, Extract, Databases
+                summary the data analyst will be responsible for collecting, processing, interpreting and visualizing pharmacy data from multiple system applications. essential duties and responsibilities include the following. other duties may be assigned as necessary. processing confidential data and information 
+                Experience with: R, C, SQL, GAN, Data Analysis, Power BI, RDS, Communication, Leadership, Presentation
+                ",Data Analyst,"R, C, SQL, GAN, Data Analysis, Power BI, RDS, Communication, Leadership, Presentation, Attention to Detail, Screen, Health, Extract, Databases",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, RDS, BigQuery, Data Warehouse, Communication, Attention to Detail
+                job summary in this role, you will be responsible for analyzing and interpreting data to drive business decisions and optimize marketing performance at ryze superfoods. you will support datadriven initiatives by ensuring accurate tracking, developing reports, and identifying trends that enhance grow
+                Experience with: Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics
+                ",Data Analyst,"Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, RDS, BigQuery, Data Warehouse, Communication, Attention to Detail",synthetic_from_job
+"
+                GLO - Data Analyst (DRGR Specialist) professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Classification, GAN, Data Analysis, Statistics, Business Analytics, SAS, RDS, Communication, Project Management, Attention to Detail, Screen, Health
+                glo data analyst drgr specialist 00049413 organization general land office primary location texasaustin work locations cdr chase bldg fl8 221 w 6th st austin 78701 job computer and mathematical employee status regular schedule fulltime standard hours per week 40.00 state job code 0653 0652 0651 0650
+                Experience with: Go, R, C, Classification, GAN, Data Analysis, Statistics, Business Analytics, SAS, RDS
+                ",Data Analyst,"Go, R, C, Classification, GAN, Data Analysis, Statistics, Business Analytics, SAS, RDS, Communication, Project Management, Attention to Detail, Screen, Health",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, PHP, Go, R, C, Lua, Ember, SQL, Database Design, GAN, Data Visualization, Tableau, ETL, RDS, Communication
+                company overview the new york city department of health and mental hygiene dohmh is a worldrenowned agency with a long tradition of protecting and promoting health in the nations most culturally and linguistically diverse city. our 7,000plus team members bring an extraordinary array of languages, cu
+                Experience with: Python, PHP, Go, R, C, Lua, Ember, SQL, Database Design, GAN
+                ",Data Analyst,"Python, PHP, Go, R, C, Lua, Ember, SQL, Database Design, GAN, Data Visualization, Tableau, ETL, RDS, Communication",synthetic_from_job
+"
+                Data Analyst (Finance) professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, React, Ember, SQL, GAN, Data Analysis, Data Visualization, Statistics, ETL, AWS, RDS, Communication
+                company overview before we opened strive pharmacy we were unsatisfied with the current state of the pharmaceutical industry. most of the current pharmaceuticals only offer a one size fits all approach and often come with unwanted and potentially dangerous side effects. we found that through compound
+                Experience with: Python, Go, R, C, React, Ember, SQL, GAN, Data Analysis, Data Visualization
+                ",Data Analyst,"Python, Go, R, C, React, Ember, SQL, GAN, Data Analysis, Data Visualization, Statistics, ETL, AWS, RDS, Communication",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Ember, SQL, GAN, Power BI, RDS, Git, Communication, Leadership, Critical Thinking, Documentation, Attention to Detail, Git
+                location reno, nv hybrid role must attend some meetings onsite community health alliance cha is seeking a techsavvy, detailoriented data analyst to join our health informatics team. in this foundational role, youll support the collection, analysis, and visualization of data that drives clinical, ope
+                Experience with: Go, R, C, Ember, SQL, GAN, Power BI, RDS, Git, Communication
+                ",Data Analyst,"Go, R, C, Ember, SQL, GAN, Power BI, RDS, Git, Communication, Leadership, Critical Thinking, Documentation, Attention to Detail, Git",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, Statistics, ETL, RDS, Communication, Attention to Detail, Health, Inventory Management
+                position overview healthmark is reimagining the business of healthcare with innovative technology platforms that simplify and improve administrative processes related to patient health records release and patient intake processes. our applications offer internal and external users access to a variet
+                Experience with: Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, Statistics, ETL
+                ",Data Analyst,"Go, R, C, Lua, SQL, GAN, Data Analysis, Data Visualization, Statistics, ETL, RDS, Communication, Attention to Detail, Health, Inventory Management",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, Ember, SQL, Data Visualization, Power BI, ETL, RDS, Git, Communication, Presentation, Attention to Detail, Git, Data Warehousing
+                sustainable engineering services values work life balance and employee safety. we provide a flexible working environment and believe that our team is our greatest asset. currently our team is working on a hybrid schedule, with multiple layers of covid19 safety precautions in place at the office. the
+                Experience with: Python, R, C, Ember, SQL, Data Visualization, Power BI, ETL, RDS, Git
+                ",Data Analyst,"Python, R, C, Ember, SQL, Data Visualization, Power BI, ETL, RDS, Git, Communication, Presentation, Attention to Detail, Git, Data Warehousing",synthetic_from_job
+"
+                ISRM Data & Analytics GEM Fellow 2025 professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau, Innovation, Health, Risk Management, Data Science, Exploratory Data Analysis
+                at johnson johnson, we believe health is everything. our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. through our expertise in innovative medicine a
+                Experience with: Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau
+                ",Data Analyst,"Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau, Innovation, Health, Risk Management, Data Science, Exploratory Data Analysis",synthetic_from_job
+"
+                Marketing Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Lua, Statistics, Market Research, Marketing, Sales, Mathematics
+                job location ontario, ca job duties research market conditions in fertility services industry by designing research format and methodology for data collection, to help identify potential opportunities. research and track data regarding new clients and new surrogates from different locations and duri
+                Experience with: R, C, Lua, Statistics, Market Research, Marketing, Sales, Mathematics
+                ",Data Analyst,"R, C, Lua, Statistics, Market Research, Marketing, Sales, Mathematics",synthetic_from_job
+"
+                Data Analyst Consultant - DSNY10 (August 4, 2025) professional with 3-5 years experience.
+                Technical Skills: Go, R, C, GAN, Data Visualization, Tableau, Health, Benefits, Load, Training
+                final application deadline june 11, 2025 you must submit your application by may 30 to receive feedback on your application. the information lab has a simple mission to help people make sense of data. we believe that companies that use data well will have better futures than those that dont. we have
+                Experience with: Go, R, C, GAN, Data Visualization, Tableau, Health, Benefits, Load, Training
+                ",Data Analyst,"Go, R, C, GAN, Data Visualization, Tableau, Health, Benefits, Load, Training",synthetic_from_job
+"
+                Data Analyst, GBM - MPIE professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Express, Less, SQL, Data Analysis, Tableau, Power BI, Statistics, Business Analytics, AWS, RDS, Git
+                responsibilities about the team global business marketing is looking for a data analyst to support the marketing partnerships industry education mpie team. you will be responsible for leading data and analytics for the tiktok marketing partners program globally. this team develops and executes strat
+                Experience with: Python, Go, R, C, Express, Less, SQL, Data Analysis, Tableau, Power BI
+                ",Data Analyst,"Python, Go, R, C, Express, Less, SQL, Data Analysis, Tableau, Power BI, Statistics, Business Analytics, AWS, RDS, Git",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, Rust, R, C, SQL, Data Modeling, GAN, Data Analysis, Tableau, Power BI, Business Analytics, RDS, Communication, Leadership
+                a midlevel data analyst contributes to analyzing complex data sets, focusing on data modeling, process optimization, and improving supply chain operations. strong attention to detail and analytical expertise supports decisionmaking processes by providing accurate, actionable insights for both dod an
+                Experience with: Python, Go, Rust, R, C, SQL, Data Modeling, GAN, Data Analysis, Tableau
+                ",Data Analyst,"Python, Go, Rust, R, C, SQL, Data Modeling, GAN, Data Analysis, Tableau, Power BI, Business Analytics, RDS, Communication, Leadership",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Express, SQL, Data Visualization, Tableau, ETL, Leadership, Health, Information Technology, Benefits, Extract, Databases, Computer Science
+                the following website advertisement will be posted from 0214 2025 03072025 data analyst needed wmasters degree or foreign equivalent in information technology or computer science or computer engineering or computer information systems and one 1 year experience as data analyst or analytics developer 
+                Experience with: R, C, Express, SQL, Data Visualization, Tableau, ETL, Leadership, Health, Information Technology
+                ",Data Analyst,"R, C, Express, SQL, Data Visualization, Tableau, ETL, Leadership, Health, Information Technology, Benefits, Extract, Databases, Computer Science",synthetic_from_job
+"
+                Geospatial Data Analyst professional with 3-5 years experience.
+                Technical Skills: Java, JavaScript, TypeScript, Go, R, Scala, C, HTML, CSS, Express, AWS, Scala, Communication, Benefits, ArcGIS
+                about wing wing offers drone delivery as a safe, fast, and sustainable solution for last mile logistics. consumer appetites for ondemand services are increasing, but current delivery methods are inefficient, costly, and contribute to road accidents and air pollution. wings fleet of highly automated 
+                Experience with: Java, JavaScript, TypeScript, Go, R, Scala, C, HTML, CSS, Express
+                ",Data Analyst,"Java, JavaScript, TypeScript, Go, R, Scala, C, HTML, CSS, Express, AWS, Scala, Communication, Benefits, ArcGIS",synthetic_from_job
+"
+                Data Visualization Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, GAN, Azure, RDS, Azure DevOps, DevOps, Communication, Devops Tools
+                job description create, configure, and maintain powerbi dashboards used to display physical security information collected and maintained by others. partner with others to define the scope of work and design for more complex powerbi dashboards, when necessary. create, configure, and maintain ms offi
+                Experience with: R, C, GAN, Azure, RDS, Azure DevOps, DevOps, Communication, Devops Tools
+                ",Software Engineer,"R, C, GAN, Azure, RDS, Azure DevOps, DevOps, Communication, Devops Tools",synthetic_from_job
+"
+                Vulnerabilities Data Analyst and Business Intelligence Summer 2025 Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Ember, GAN, Data Analysis, RDS, Git, Communication, Project Management, Innovation, Git, Business Intelligence, Banking, Transform, Design and Product
+                description du poste position credit agricole cib vulnerabilities data analyst and business intelligence summer 2025 about credit agricole cib credit agricole corporate investment bank cacib is the corporate and investment banking arm of the crédit agricole group, one of the worlds largest financial
+                Experience with: R, C, Ember, GAN, Data Analysis, RDS, Git, Communication, Project Management, Innovation
+                ",Data Analyst,"R, C, Ember, GAN, Data Analysis, RDS, Git, Communication, Project Management, Innovation, Git, Business Intelligence, Banking, Transform, Design and Product",synthetic_from_job
+"
+                MANAGEMENT ANALYST - DATA SOLUTIONS (UNCLASSIFIED) professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, Ember, Less, SQL, GAN, Data Analysis, Statistics, ETL, SAS, AWS, RDS, Attention to Detail
+                general statement of duties this employee performs professional level work which involves a high degree of independent judgment and responsibility in the administration of the city. responsibilities include maintaining liaison with various city departments and performing staff work which may involve
+                Experience with: Go, R, C, Lua, Ember, Less, SQL, GAN, Data Analysis, Statistics
+                ",Software Engineer,"Go, R, C, Lua, Ember, Less, SQL, GAN, Data Analysis, Statistics, ETL, SAS, AWS, RDS, Attention to Detail",synthetic_from_job
+"
+                Associate Research/Data Analyst 5034196 professional with 3-5 years experience.
+                Technical Skills: Go, R, C, GAN, RDS, Communication, Attention to Detail, Time Management, Health, Benefits, Writing, Human Resources, Compensation
+                associate researchdata analyst department of revenue taxation division income tax bureau location 301 west high street, jefferson city, mo dors vision to provide every customer the best experience every time. how this position supports the departments vision this position is the department of revenu
+                Experience with: Go, R, C, GAN, RDS, Communication, Attention to Detail, Time Management, Health, Benefits
+                ",Data Analyst,"Go, R, C, GAN, RDS, Communication, Attention to Detail, Time Management, Health, Benefits, Writing, Human Resources, Compensation",synthetic_from_job
+"
+                TCEQ - Data Analyst III professional with 3-5 years experience.
+                Technical Skills: Go, R, Perl, C, Lua, Ember, Classification, GAN, Data Analysis, Data Visualization, Statistics, ETL, RDS, Presentation, Health
+                tceq data analyst iii 00049254 organization texas commission on environmental quality primary location texasaustin work locations headquarters 582hqaus 12100 park 35 circle austin 78753 job computer and mathematical employee status regular schedule fulltime standard hours per week 40.00 state job co
+                Experience with: Go, R, Perl, C, Lua, Ember, Classification, GAN, Data Analysis, Data Visualization
+                ",Data Analyst,"Go, R, Perl, C, Lua, Ember, Classification, GAN, Data Analysis, Data Visualization, Statistics, ETL, RDS, Presentation, Health",synthetic_from_job
+"
+                Junior Data Analyst (ANP1) - Entry professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Data Analysis, Presentation, Documentation, Benefits, Training
+                description tamayo federal solutions, llc, a department of defense contractor, is now hiring a junior data analyst entry level to support the customer and shall provide system administration services to the government for both physical and virtual hosted applications. you will provide all services n
+                Experience with: Go, R, C, Data Analysis, Presentation, Documentation, Benefits, Training
+                ",Data Analyst,"Go, R, C, Data Analysis, Presentation, Documentation, Benefits, Training",synthetic_from_job
+"
+                Claims Data & Reporting Analyst professional with 3-5 years experience.
+                Technical Skills: Go, Rust, R, C, Data Analysis, Statistics, AWS, Communication, Leadership, Presentation, Attention to Detail, Health, Benefits, Extract, Microsoft Excel
+                the claims data reporting analyst will be responsible for generating reports, identifying trends, and providing insights on claims data to help drive improvements within the department. job responsibilities responsibilities are not limited to the below and will expand over time. develop and deliver 
+                Experience with: Go, Rust, R, C, Data Analysis, Statistics, AWS, Communication, Leadership, Presentation
+                ",Software Engineer,"Go, Rust, R, C, Data Analysis, Statistics, AWS, Communication, Leadership, Presentation, Attention to Detail, Health, Benefits, Extract, Microsoft Excel",synthetic_from_job
+"
+                Content Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Less, Marketing
+                org marketing statement position summary this is a local position to kearney, nebraska and is not eligible for relocation. must be authorized to work in the us. the content data analyst is responsible for conducting original equipment oe and competitive research on filtration products, ensuring the 
+                Experience with: Go, R, C, Less, Marketing
+                ",Data Analyst,"Go, R, C, Less, Marketing",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, GAN, Benefits, Risk Management, Business Intelligence
+                position data analyst job location gaithersburg, md and other unanticipated sites throughout us description use statistical methods to analyze data and generate useful business reports. identify and recommend new ways to save money by streamlining business processes. work with programmers, engineers
+                Experience with: Python, Go, R, C, GAN, Benefits, Risk Management, Business Intelligence
+                ",Data Analyst,"Python, Go, R, C, GAN, Benefits, Risk Management, Business Intelligence",synthetic_from_job
+"
+                Research Data Analyst (6257U) 75505 professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, GAN, Leadership, Innovation, Benefits, Collaboration, Culture, Writing, Professional Development, Statistical Analysis, Data Management, Compensation
+                research data analyst 6257u 75505 about berkeley at the university of california, berkeley, we are dedicated to fostering a community where everyone feels welcome and can thrive. our culture of openness, freedom and belonging make it a special place for students, faculty and staff. as a worldleading
+                Experience with: Go, R, C, Lua, GAN, Leadership, Innovation, Benefits, Collaboration, Culture
+                ",Data Analyst,"Go, R, C, Lua, GAN, Leadership, Innovation, Benefits, Collaboration, Culture, Writing, Professional Development, Statistical Analysis, Data Management, Compensation",synthetic_from_job
+"
+                Health Informatics Analyst (Remote) professional with 3-5 years experience.
+                Technical Skills: Python, R, C, Lua, SQL, Data Analysis, Power BI, Business Analytics, SAS, RDS, Git, Documentation, Git, Health, Marketing
+                why join stryker looking for a place that values your unique talents discover strykers awardwinning culture. we are proud to offer you our total rewards package which includes bonuses, healthcare, insurance benefits, retirement programs, wellness programs, as well as service and performance awards n
+                Experience with: Python, R, C, Lua, SQL, Data Analysis, Power BI, Business Analytics, SAS, RDS
+                ",Software Engineer,"Python, R, C, Lua, SQL, Data Analysis, Power BI, Business Analytics, SAS, RDS, Git, Documentation, Git, Health, Marketing",synthetic_from_job
+"
+                Data Analyst - Business Insights professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, Ember, SQL, Data Modeling, BERT, GAN, Data Analysis, Tableau, Data Mining, Business Analytics, AWS
+                data analyst business insights mettel is a global communications solutions provider with the most complete suite of fully managed services that focus on secure connectivity, and network and mobility services. we simplify communications and networking for business and government agencies. our custome
+                Experience with: Python, Go, R, C, Lua, Ember, SQL, Data Modeling, BERT, GAN
+                ",Data Analyst,"Python, Go, R, C, Lua, Ember, SQL, Data Modeling, BERT, GAN, Data Analysis, Tableau, Data Mining, Business Analytics, AWS",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, Bash, SQL, MySQL, Oracle, GAN, Communication, Extract, Computer Science, Accounting, Finance
+                description this position is responsible for interacting directly with our clients to discover, acquire, and extract data from their legacy software systems using a wide range of technologies such as sql, python, and reporting systems. this role is a fastpaced position that involves working on multi
+                Experience with: Python, R, C, Bash, SQL, MySQL, Oracle, GAN, Communication, Extract
+                ",Data Analyst,"Python, R, C, Bash, SQL, MySQL, Oracle, GAN, Communication, Extract, Computer Science, Accounting, Finance",synthetic_from_job
+"
+                Data Analyst 3 - Loyalty Analytics, Customer Insights - Hybrid - Seattle professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Ember, SQL, Oracle, Classification, GAN, Data Analysis, Data Visualization, Plotly, Tableau, Statistics, AWS
+                job description nordstrom is reinventing the retail industry through the power of data and artificial intelligence. the vision for data science analytics at nordstrom is to be the best datadriven fashion retailer in the world, and we win by rigorous and thoughtful application data science to solve s
+                Experience with: Python, Go, R, C, Ember, SQL, Oracle, Classification, GAN, Data Analysis
+                ",Data Analyst,"Python, Go, R, C, Ember, SQL, Oracle, Classification, GAN, Data Analysis, Data Visualization, Plotly, Tableau, Statistics, AWS",synthetic_from_job
+"
+                Operations Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Express, Ember, SQL, GAN, AWS, Communication, Leadership, Presentation, Health, Business Intelligence, Writing, Extract
+                company overview ocean state job lot osjl or the company is a dynamic 850 million general merchandise retailer with a strong foothold across the northeast and midatlantic. with over 160 stores currently and ambitious plans to reach 180 locations, osjl offers exciting opportunities for growth and con
+                Experience with: Go, R, C, Express, Ember, SQL, GAN, AWS, Communication, Leadership
+                ",Data Analyst,"Go, R, C, Express, Ember, SQL, GAN, AWS, Communication, Leadership, Presentation, Health, Business Intelligence, Writing, Extract",synthetic_from_job
+"
+                Supply Chain Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau, Power BI, Big Data, Communication, Information Technology, Benefits
+                what we offer at magna, you can expect an engaging and dynamic environment where you can help to develop industryleading automotive technologies. we invest in our employees, providing them with the support and resources they need to succeed. as a member of our global team, you can expect exciting, v
+                Experience with: Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau
+                ",Data Analyst,"Python, Go, R, C, Ember, Less, SQL, GAN, Data Analysis, Tableau, Power BI, Big Data, Communication, Information Technology, Benefits",synthetic_from_job
+"
+                Reporting Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, Ember, SQL, GAN, Data Visualization, RDS, Communication, Problem Solving, Attention to Detail, Health, Benefits, Extract, Transform
+                reporting data analysts primary responsibility is to collect, analyze, and present data through comprehensive reports and dashboards. a sophisticated understanding of sql, modes of central tendency, and logical problem solving is crucial for this role. this position is accountable to the senior vice
+                Experience with: Python, R, C, Ember, SQL, GAN, Data Visualization, RDS, Communication, Problem Solving
+                ",Data Analyst,"Python, R, C, Ember, SQL, GAN, Data Visualization, RDS, Communication, Problem Solving, Attention to Detail, Health, Benefits, Extract, Transform",synthetic_from_job
+"
+                Data Analyst (two positions) professional with 3-5 years experience.
+                Technical Skills: Python, Java, JavaScript, R, Scala, C, SQL, Data Analysis, Data Visualization, Statistics, ETL, AWS, EC2, S3, Lambda
+                id 072423da posted date 07242023 employer novagigs, inc. title data analyst two positions employment type fulltime job location mclean, va job duties analyze business requirements and translate into feasible and effective technical solution. create data dictionary, solution documents, implementation
+                Experience with: Python, Java, JavaScript, R, Scala, C, SQL, Data Analysis, Data Visualization, Statistics
+                ",Data Analyst,"Python, Java, JavaScript, R, Scala, C, SQL, Data Analysis, Data Visualization, Statistics, ETL, AWS, EC2, S3, Lambda",synthetic_from_job
+"
+                Data Analyst (R2071) professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, SQL, GAN, Data Analysis, RDS, Communication, Critical Thinking, Documentation, Innovation, Health, Other Programming Languages, Benefits
+                sompo has a unique opportunity for a data analyst on our ceded reinsurance team. the ceded reinsurance solutions team is the change management department within the ceded reinsurance function of sompo. this role will be integral to the innovation and future transformation of the of the team as the g
+                Experience with: Go, R, C, Lua, SQL, GAN, Data Analysis, RDS, Communication, Critical Thinking
+                ",Data Analyst,"Go, R, C, Lua, SQL, GAN, Data Analysis, RDS, Communication, Critical Thinking, Documentation, Innovation, Health, Other Programming Languages, Benefits",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, Perl, C, GAN, Data Analysis, Statistics, SAS, Communication, Leadership, Innovation, Health, Benefits
+                summary about us coxhealth is a leading healthcare system serving 25 counties across southwest missouri and northern arkansas. the organization includes six hospitals, 5 ers, and over 80 clinics. coxhealth has earned the following honors for workplace excellence named one of modern healthcares best 
+                Experience with: Go, R, Perl, C, GAN, Data Analysis, Statistics, SAS, Communication, Leadership
+                ",Data Analyst,"Go, R, Perl, C, GAN, Data Analysis, Statistics, SAS, Communication, Leadership, Innovation, Health, Benefits",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, Scala, C, SQL, Classification, Data Analysis, Scala, Leadership, Documentation, Screen, Information Technology, Benefits, Microsoft Excel, Transform
+                advertisement closes 4212025 800 pm edt 2502253 data analyst pay grade 14 salary 3,496.04 4,699.50 monthly employment type executive branch full time eligible for overtime pay 18a 37.5 hrwk click here for more details on state employment. hiring agency education labor cabinet department of education
+                Experience with: Go, R, Scala, C, SQL, Classification, Data Analysis, Scala, Leadership, Documentation
+                ",Data Analyst,"Go, R, Scala, C, SQL, Classification, Data Analysis, Scala, Leadership, Documentation, Screen, Information Technology, Benefits, Microsoft Excel, Transform",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Ember, SQL, Classification, GAN, Tableau, Power BI, ETL, RDS, Data Warehouse, Git, Communication, Leadership
+                i summary vector windows, a fastgrowing and continuously improving organization, is seeking a highly motivated data analyst to join our technology department. this position offers an exciting opportunity to work with a highperforming, collaborative team that is committed to innovation and impactful 
+                Experience with: Go, R, C, Ember, SQL, Classification, GAN, Tableau, Power BI, ETL
+                ",Data Analyst,"Go, R, C, Ember, SQL, Classification, GAN, Tableau, Power BI, ETL, RDS, Data Warehouse, Git, Communication, Leadership",synthetic_from_job
+"
+                Data Marketing Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, SQL, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, SPSS, RDS, Attention to Detail
+                job overview were a small, familyoriented business based in nebraska, specializing in premium vanilla extract, beans, and related products. starting locally, were now expanding across the region and are committed to using data to guide our growth. join us to make a real impact in a tightknit company
+                Experience with: Python, Go, R, C, SQL, GAN, Data Analysis, Data Visualization, Tableau, Power BI
+                ",Software Engineer,"Python, Go, R, C, SQL, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Statistics, Business Analytics, SPSS, RDS, Attention to Detail",synthetic_from_job
+"
+                Data Analyst - Practice Onboarding professional with 3-5 years experience.
+                Technical Skills: Python, Go, Rust, R, C, SQL, GAN, Data Visualization, Tableau, AWS, RDS, Communication, Documentation, Attention to Detail, Health
+                the data analyst practice onboarding will be an integral part of our platform analytics and marketing team helping to drive the next wave of growth in our b2b2c business. as a data analyst, you will be responsible for endtoend ownership of the customer onboarding journey as we seek to understand imp
+                Experience with: Python, Go, Rust, R, C, SQL, GAN, Data Visualization, Tableau, AWS
+                ",Data Analyst,"Python, Go, Rust, R, C, SQL, GAN, Data Visualization, Tableau, AWS, RDS, Communication, Documentation, Attention to Detail, Health",synthetic_from_job
+"
+                Merchant Services Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, Scala, C, Ember, GAN, Data Analysis, Statistics, AWS, RDS, Scala, Communication, Leadership, Problem Solving, Critical Thinking, Presentation
+                basic function the position is responsible for supporting the banks merchant services department by performing data analysis and reporting requirements as part of normal business operations. this includes compiling, reviewing and generating reports for members of the senior and executive management 
+                Experience with: R, Scala, C, Ember, GAN, Data Analysis, Statistics, AWS, RDS, Scala
+                ",Data Analyst,"R, Scala, C, Ember, GAN, Data Analysis, Statistics, AWS, RDS, Scala, Communication, Leadership, Problem Solving, Critical Thinking, Presentation",synthetic_from_job
+"
+                Contractor - Food Systems Data and Intelligence Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Statistics, RDS, Presentation, Market Research, R Programming, Data Warehousing, Salesforce
+                about the role mercy for animals is hiring a food systems data intelligence analyst for a sixmonth contract, with potential renewal or growth. this role is part of the data analytics team and will help us map corporate influence, identify major targets, and level up our intelligence on the global fo
+                Experience with: Python, Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Statistics, RDS
+                ",Software Engineer,"Python, Go, R, C, SQL, Data Analysis, Data Visualization, Tableau, Statistics, RDS, Presentation, Market Research, R Programming, Data Warehousing, Salesforce",synthetic_from_job
+"
+                Data Analyst (On-Site) professional with 3-5 years experience.
+                Technical Skills: Go, Rust, R, Scala, C, Lua, Express, GAN, Tableau, Power BI, RDS, Scala, Communication, Leadership, Project Management
+                extreme music, formed in 1997, is renowned in the industry and around the world for its boundarypushing approach to production music. its alist roster has yielded diverse awardwinning collections and includes artists and composers such as quincy jones, hans zimmer, sir george martin, snoop dogg, xzi
+                Experience with: Go, Rust, R, Scala, C, Lua, Express, GAN, Tableau, Power BI
+                ",Data Analyst,"Go, Rust, R, Scala, C, Lua, Express, GAN, Tableau, Power BI, RDS, Scala, Communication, Leadership, Project Management",synthetic_from_job
+"
+                Business Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Lua, Express, Ember, SQL, MySQL, GAN, Data Analysis, Data Visualization, Tableau, RDS, Communication, Project Management
+                about the organization it is an exciting time at the capital area food bank cafb as we continue to undertake our mission. we know that creating long term solutions to food security requires more than meals. it requires education, training, and collaboration. we are seeking people with strong ideas a
+                Experience with: Go, R, C, Lua, Express, Ember, SQL, MySQL, GAN, Data Analysis
+                ",Data Analyst,"Go, R, C, Lua, Express, Ember, SQL, MySQL, GAN, Data Analysis, Data Visualization, Tableau, RDS, Communication, Project Management",synthetic_from_job
+"
+                Marketing Data Analyst professional with 3-5 years experience.
+                Technical Skills: R, C, Lua, Express, SQL, GAN, Data Visualization, Statistics, AWS, Cloud Storage, Git, Problem Solving, Presentation, Time Management, Git
+                our story papa murphys is different on purpose. not only because we make our pizzas completely from scratch with fresh ingredients at over 1,300 locations nationwide, but because we do it with swagger. we know our product is better than our competitors. the fact that our pizza is take n bake adds to
+                Experience with: R, C, Lua, Express, SQL, GAN, Data Visualization, Statistics, AWS, Cloud Storage
+                ",Data Analyst,"R, C, Lua, Express, SQL, GAN, Data Visualization, Statistics, AWS, Cloud Storage, Git, Problem Solving, Presentation, Time Management, Git",synthetic_from_job
+"
+                Investment Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, R, C, SQL, GAN, RDS, Communication, Attention to Detail, Time Management, Benefits, Culture, Securities Trading, Mathematics, Accounting, Data Management
+                opportunity investment analyst at chamberlain group, we do everything in teams because we believe in the collective genius of groupthink many heads are better than one the core responsibilities of the investment analyst will be to work as part of our investment team to support all facets of the inve
+                Experience with: Python, R, C, SQL, GAN, RDS, Communication, Attention to Detail, Time Management, Benefits
+                ",Data Analyst,"Python, R, C, SQL, GAN, RDS, Communication, Attention to Detail, Time Management, Benefits, Culture, Securities Trading, Mathematics, Accounting, Data Management",synthetic_from_job
+"
+                Data Analytics Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, Scala, C, React, Express, SQL, Classification, GAN, Data Visualization, Tableau, RDS, Scala, Communication, Project Management
+                to get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. job category data job details about salesforce were salesforce, the customer company, inspiring the future of business with ai data crm. leading with ou
+                Experience with: Go, R, Scala, C, React, Express, SQL, Classification, GAN, Data Visualization
+                ",Data Analyst,"Go, R, Scala, C, React, Express, SQL, Classification, GAN, Data Visualization, Tableau, RDS, Scala, Communication, Project Management",synthetic_from_job
+"
+                Analyst, Data Activation professional with 3-5 years experience.
+                Technical Skills: R, C, Oracle, GAN, Data Analysis, Data Visualization, Tableau, Git, Git, Benefits, Collaboration, Salesforce, Data Science, Sales, Advertising
+                analyst, data activation apply now apply later job id 10110394 location santa monica, california, united states business disney entertainment date posted apr. 11, 2025 job summary supporting the disney advertising organization within entertainment and sports, the audience modeling and data science t
+                Experience with: R, C, Oracle, GAN, Data Analysis, Data Visualization, Tableau, Git, Git, Benefits
+                ",Software Engineer,"R, C, Oracle, GAN, Data Analysis, Data Visualization, Tableau, Git, Git, Benefits, Collaboration, Salesforce, Data Science, Sales, Advertising",synthetic_from_job
+"
+                Data Analyst II professional with 3-5 years experience.
+                Technical Skills: Go, Rust, R, C, Express, Ember, Less, SQL, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Data Storytelling, AWS
+                pir is seeking a skilled data analyst with a strong focus on report writing and data storytelling to join our data analytics department. in this role, you will analyze complex data sets, translate findings into actionable insights, and deliver clear, concise, and visually appealing reports that info
+                Experience with: Go, Rust, R, C, Express, Ember, Less, SQL, GAN, Data Analysis
+                ",Data Analyst,"Go, Rust, R, C, Express, Ember, Less, SQL, GAN, Data Analysis, Data Visualization, Tableau, Power BI, Data Storytelling, AWS",synthetic_from_job
+"
+                Sr Analyst Data professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Ember, SQL, Oracle, GAN, Power BI, RDS, Communication, Leadership, Critical Thinking, Time Management, Health, Benefits
+                heres why you will love it here recognition programs and rewards excellent health care options, including medical, dental, and vision a peoplefirst culture go hilton travel discounts program hilton hotel rates worldwide. perks at work employee pricing platform employee assistance program that suppor
+                Experience with: Go, R, C, Ember, SQL, Oracle, GAN, Power BI, RDS, Communication
+                ",Software Engineer,"Go, R, C, Ember, SQL, Oracle, GAN, Power BI, RDS, Communication, Leadership, Critical Thinking, Time Management, Health, Benefits",synthetic_from_job
+"
+                Data Analyst Senior professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Ember, SQL, GAN, Data Analysis, Data Visualization, Tableau, ETL, SAS, RDS, Git, Leadership
+                overview our team members are the heart of what makes us better. at hackensack meridian health we help our patients live better, healthier lives and we help one another to succeed. with a culture rooted in connection and collaboration, our employees are team members. here, competitive benefits are j
+                Experience with: Python, Go, R, C, Ember, SQL, GAN, Data Analysis, Data Visualization, Tableau
+                ",Data Analyst,"Python, Go, R, C, Ember, SQL, GAN, Data Analysis, Data Visualization, Tableau, ETL, SAS, RDS, Git, Leadership",synthetic_from_job
+"
+                DATA ANALYST - FULL TIME professional with 3-5 years experience.
+                Technical Skills: R, C, Data Analysis, Communication, Health, Information Technology, Extract, Databases, Finance
+                description essential functions compiles, analyzes and reports on key program data gathers data and produces reports to support quality projects assists with the development of communication with clients, clinics, and physician practices regarding areas of concern on analytical reports, or other fun
+                Experience with: R, C, Data Analysis, Communication, Health, Information Technology, Extract, Databases, Finance
+                ",Data Analyst,"R, C, Data Analysis, Communication, Health, Information Technology, Extract, Databases, Finance",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Lua, React, Ember, Less, SQL, Data Modeling, GAN, Data Analysis, Tableau, Power BI, Statistics
+                at bwx technologies, inc. nyse bwxt, we are people strong, innovation driven. a u.s.based company, bwxt is a fortune 1000 and defense news top 100 manufacturing and engineering innovator that provides safe and effective nuclear solutions for global security, clean energy, environmental restoration, 
+                Experience with: Python, Go, R, C, Lua, React, Ember, Less, SQL, Data Modeling
+                ",Data Analyst,"Python, Go, R, C, Lua, React, Ember, Less, SQL, Data Modeling, GAN, Data Analysis, Tableau, Power BI, Statistics",synthetic_from_job
+"
+                Data Analyst - Remote Temporary Contract professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, Scala, C, Lua, SQL, GAN, Data Visualization, Tableau, Power BI, ETL, RDS, Scala, Data Warehouse
+                job description one of the bestknown names in cruising, princess is the worlds leading international premium cruise line and tour company, carrying millions of guests each year to hundreds of destinations around the globe. we give our guests the medallion class experience others simply cant. the lov
+                Experience with: Python, Go, R, Scala, C, Lua, SQL, GAN, Data Visualization, Tableau
+                ",Data Analyst,"Python, Go, R, Scala, C, Lua, SQL, GAN, Data Visualization, Tableau, Power BI, ETL, RDS, Scala, Data Warehouse",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, RDS, Communication, Agile, Health, Benefits, Banking, Audit, Accounting, Data Management, Finance
+                data analyst specialty in data governancefinance location new york type fte only no c2c key responsibilities finance data governance in compliance with the enterprise data governance policy ensuring the appropriate accountability model and processes for data asset management, data quality, and issue
+                Experience with: Go, R, C, RDS, Communication, Agile, Health, Benefits, Banking, Audit
+                ",Data Analyst,"Go, R, C, RDS, Communication, Agile, Health, Benefits, Banking, Audit, Accounting, Data Management, Finance",synthetic_from_job
+"
+                Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, SQL, PostgreSQL, Machine Learning, GAN, AWS, Communication, Attention to Detail, Information Technology, Benefits, Writing, Data Science, Databases
+                at zantech, we apply stateoftheart technology to solve our federal clients most missioncritical challenges. we embrace the opportunity to hire individuals with new talents and fresh perspectives. zantech offers competitive compensation, benefits, and vacation packages in addition to providing you wi
+                Experience with: Go, R, C, SQL, PostgreSQL, Machine Learning, GAN, AWS, Communication, Attention to Detail
+                ",Data Analyst,"Go, R, C, SQL, PostgreSQL, Machine Learning, GAN, AWS, Communication, Attention to Detail, Information Technology, Benefits, Writing, Data Science, Databases",synthetic_from_job
+"
+                Senior Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, Perl, C, Ember, SQL, Communication, Problem Solving, Critical Thinking, Project Management, Health, Writing, Extract, Training
+                job title sr. data analyst work hours 8am to 5pm 1 hour break 8 hours a day , 40 hours a week hybrid 2 days per week in mason office specific skills needed top 35 mandatory andor minimum requirements they must have facets experience. sqldatabase experience experience with health provider and network
+                Experience with: Go, R, Perl, C, Ember, SQL, Communication, Problem Solving, Critical Thinking, Project Management
+                ",Data Analyst,"Go, R, Perl, C, Ember, SQL, Communication, Problem Solving, Critical Thinking, Project Management, Health, Writing, Extract, Training",synthetic_from_job
+"
+                DATA INTELLIGENCE ANALYST professional with 3-5 years experience.
+                Technical Skills: Go, Rust, R, Scala, C, SQL, GAN, Data Visualization, Tableau, Power BI, RDS, Scala, Communication, Leadership, Health
+                benefits information this position reports onsite. u.s. citizenship is required. fulltime employees will enjoy a competitive benefits package with options for you and your family including paid time off paid holidays 401k matching health insurance vision insurance life insurance health savings accou
+                Experience with: Go, Rust, R, Scala, C, SQL, GAN, Data Visualization, Tableau, Power BI
+                ",Software Engineer,"Go, Rust, R, Scala, C, SQL, GAN, Data Visualization, Tableau, Power BI, RDS, Scala, Communication, Leadership, Health",synthetic_from_job
+"
+                Healthcare Data Analyst professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, Shell, Ember, SQL, Machine Learning, GAN, Data Analysis, Tableau, Leadership, Presentation, Documentation, Time Management
+                clinical data analyst job description the healthcare data analyst supports healthcare effectiveness data and information set hedis and uniform data systems uds quality and process improvement activities by producing healthcare outcome measurements used for internal and external reporting. tasks incl
+                Experience with: Python, Go, R, C, Shell, Ember, SQL, Machine Learning, GAN, Data Analysis
+                ",Data Analyst,"Python, Go, R, C, Shell, Ember, SQL, Machine Learning, GAN, Data Analysis, Tableau, Leadership, Presentation, Documentation, Time Management",synthetic_from_job
+"
+                Junior Business Systems Analyst (AI & Data Focus) professional with 3-5 years experience.
+                Technical Skills: Python, Go, R, C, SQL, GPT, Tableau, ETL, AWS, RDS, Git, Documentation, Innovation, Git, Marketing
+                are you starting your journey in the tech world and excited to explore how data and ai can solve realworld business challenges this role is an opportunity to build technical skills and gain handson experience in data automation, python scripting, and aidriven solutions while working at the intersect
+                Experience with: Python, Go, R, C, SQL, GPT, Tableau, ETL, AWS, RDS
+                ",Software Engineer,"Python, Go, R, C, SQL, GPT, Tableau, ETL, AWS, RDS, Git, Documentation, Innovation, Git, Marketing",synthetic_from_job
+"
+                Customer Success Data Analyst professional with 3-5 years experience.
+                Technical Skills: Go, R, C, Express, Ember, Less, GAN, Data Analysis, RDS, Git, IaC, Communication, Leadership, Problem Solving, Project Management
+                about fujitsu network communications, inc. join us, fujitsu wants innovators like you fujitsu network communications, inc. is part of the global fujitsu group of technology companies. were bringing the power of digital transformation dx to the network operators, communications service providers, and
+                Experience with: Go, R, C, Express, Ember, Less, GAN, Data Analysis, RDS, Git
+                ",Data Analyst,"Go, R, C, Express, Ember, Less, GAN, Data Analysis, RDS, Git, IaC, Communication, Leadership, Problem Solving, Project Management",synthetic_from_job
+"
+                Cybersecurity certified by Google.
+                Completed: Google Cybersecurity
+                Skills acquired: Network Security, Python Programming, Linux, Cloud Computing, Algorithms, Audit, Computer Programming, Computer Security Incident Management, Cryptography, Databases, Leadership and Management, Network Architecture
+                Proficient in: Network Security, Python Programming, Linux, Cloud Computing, Algorithms, Audit, Computer Programming, Computer Security Incident Management
+                Experience: 2-4 years applying these skills
+                ",Cybersecurity,"Network Security, Python Programming, Linux, Cloud Computing, Algorithms, Audit, Computer Programming, Computer Security Incident Management, Cryptography, Databases, Leadership and Management, Network Architecture",synthetic_from_course
+"
+                Cybersecurity certified by Multiple educators.
+                Completed: IBM and ISC2 Cybersecurity Specialist
+                Skills acquired: Computer Security Incident Management, Leadership and Management, Cloud Computing, System Security, Computer Networking, Risk Management, Cloud Storage, Operating Systems, Network Security, Cloud Platforms, Network Architecture, Networking Hardware
+                Proficient in: Computer Security Incident Management, Leadership and Management, Cloud Computing, System Security, Computer Networking, Risk Management, Cloud Storage, Operating Systems
+                Experience: 2-4 years applying these skills
+                ",Cybersecurity,"Computer Security Incident Management, Leadership and Management, Cloud Computing, System Security, Computer Networking, Risk Management, Cloud Storage, Operating Systems, Network Security, Cloud Platforms, Network Architecture, Networking Hardware",synthetic_from_course
+"
+                Cybersecurity certified by Google.
+                Completed: Foundations of Cybersecurity
+                Skills acquired: Linux, Computer Programming, Leadership and Management, SQL
+                Proficient in: Linux, Computer Programming, Leadership and Management, SQL
+                Experience: 2-4 years applying these skills
+                ",Cybersecurity,"Linux, Computer Programming, Leadership and Management, SQL",synthetic_from_course
+"
+                Cybersecurity certified by IBM.
+                Completed: IBM Cybersecurity Analyst
+                Skills acquired: Cryptography, Python Programming, Linux, Network Security, Security Strategy, Software Security, System Software, Computer Security Incident Management, Networking Hardware, Security Software, Cloud Computing, Cyberattacks
+                Proficient in: Cryptography, Python Programming, Linux, Network Security, Security Strategy, Software Security, System Software, Computer Security Incident Management
+                Experience: 2-4 years applying these skills
+                ",Cybersecurity,"Cryptography, Python Programming, Linux, Network Security, Security Strategy, Software Security, System Software, Computer Security Incident Management, Networking Hardware, Security Software, Cloud Computing, Cyberattacks",synthetic_from_course
+"
+                Cybersecurity certified by IBM.
+                Completed: IT Fundamentals for Cybersecurity
+                Skills acquired: Cryptography, Network Security, Linux, Networking Hardware, Security Software, System Software, Cloud Computing, Cyberattacks, Databases, Leadership and Management, Operating Systems, SQL
+                Proficient in: Cryptography, Network Security, Linux, Networking Hardware, Security Software, System Software, Cloud Computing, Cyberattacks
+                Experience: 2-4 years applying these skills
+                ",Cybersecurity,"Cryptography, Network Security, Linux, Networking Hardware, Security Software, System Software, Cloud Computing, Cyberattacks, Databases, Leadership and Management, Operating Systems, SQL",synthetic_from_course
+"
+                Data Analyst certified by Google.
+                Completed: Google Data Analytics
+                Skills acquired: Data Analysis, R Programming, SQL, Business Communication, Spreadsheet Software, Business Analysis, Data Visualization, Data Management, General Statistics, Big Data, Communication, Computer Programming
+                Proficient in: Data Analysis, R Programming, SQL, Business Communication, Spreadsheet Software, Business Analysis, Data Visualization, Data Management
+                Experience: 2-4 years applying these skills
+                ",Data Analyst,"Data Analysis, R Programming, SQL, Business Communication, Spreadsheet Software, Business Analysis, Data Visualization, Data Management, General Statistics, Big Data, Communication, Computer Programming",synthetic_from_course
+"
+                Data Analyst certified by IBM.
+                Completed: IBM Data Analyst
+                Skills acquired: Python Programming, Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Databases, SQL, Plot (Graphics), Data Management, Data Structures, Exploratory Data Analysis, Machine Learning
+                Proficient in: Python Programming, Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Databases, SQL, Plot (Graphics)
+                Experience: 2-4 years applying these skills
+                ",Data Analyst,"Python Programming, Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Databases, SQL, Plot (Graphics), Data Management, Data Structures, Exploratory Data Analysis, Machine Learning",synthetic_from_course
+"
+                Data Analyst certified by IBM.
+                Completed: IBM Data Analytics with Excel and R
+                Skills acquired: Data Analysis, R Programming, Computer Programming, Data Visualization, Data Management, Statistical Programming, Databases, Plot (Graphics), Exploratory Data Analysis, Statistical Visualization, Data Analysis Software, Data Structures
+                Proficient in: Data Analysis, R Programming, Computer Programming, Data Visualization, Data Management, Statistical Programming, Databases, Plot (Graphics)
+                Experience: 2-4 years applying these skills
+                ",Data Analyst,"Data Analysis, R Programming, Computer Programming, Data Visualization, Data Management, Statistical Programming, Databases, Plot (Graphics), Exploratory Data Analysis, Statistical Visualization, Data Analysis Software, Data Structures",synthetic_from_course
+"
+                Data Analyst certified by IBM.
+                Completed: Data Analysis and Visualization Foundations
+                Skills acquired: Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Plot (Graphics), Databases, Python Programming, SQL, Statistical Visualization, Business Analysis, Data Management, Data Mining
+                Proficient in: Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Plot (Graphics), Databases, Python Programming, SQL
+                Experience: 2-4 years applying these skills
+                ",Data Analyst,"Microsoft Excel, Data Visualization, Spreadsheet Software, Data Analysis, Plot (Graphics), Databases, Python Programming, SQL, Statistical Visualization, Business Analysis, Data Management, Data Mining",synthetic_from_course
+"
+                Data Analyst certified by Google.
+                Completed: Google Advanced Data Analytics
+                Skills acquired: Communication, Computer Programming, Data Analysis, Data Visualization, Exploratory Data Analysis, General Statistics, Machine Learning, Planning, Probability Distribution, Project Management, Python Programming, Regression
+                Proficient in: Communication, Computer Programming, Data Analysis, Data Visualization, Exploratory Data Analysis, General Statistics, Machine Learning, Planning
+                Experience: 2-4 years applying these skills
+                ",Data Analyst,"Communication, Computer Programming, Data Analysis, Data Visualization, Exploratory Data Analysis, General Statistics, Machine Learning, Planning, Probability Distribution, Project Management, Python Programming, Regression",synthetic_from_course
+"
+                Product Manager certified by Google.
+                Completed: Google Project Management:
+                Skills acquired: Project Management, Strategy and Operations, Leadership and Management, Communication, Business Communication, Collaboration, Agile Software Development, Software Engineering, Entrepreneurship, Scrum (Software Development), Planning, Supply Chain and Logistics
+                Proficient in: Project Management, Strategy and Operations, Leadership and Management, Communication, Business Communication, Collaboration, Agile Software Development, Software Engineering
+                Experience: 2-4 years applying these skills
+                ",Product Manager,"Project Management, Strategy and Operations, Leadership and Management, Communication, Business Communication, Collaboration, Agile Software Development, Software Engineering, Entrepreneurship, Scrum (Software Development), Planning, Supply Chain and Logistics",synthetic_from_course
+"
+                Product Manager certified by Google.
+                Completed: Foundations of Project Management
+                Skills acquired: Project Management, Strategy and Operations, Business Communication, Change Management, Organizational Development, Communication, Culture, Emotional Intelligence, Influencing, Leadership and Management, People Management, Planning
+                Proficient in: Project Management, Strategy and Operations, Business Communication, Change Management, Organizational Development, Communication, Culture, Emotional Intelligence
+                Experience: 2-4 years applying these skills
+                ",Product Manager,"Project Management, Strategy and Operations, Business Communication, Change Management, Organizational Development, Communication, Culture, Emotional Intelligence, Influencing, Leadership and Management, People Management, Planning",synthetic_from_course
+"
+                Product Manager certified by SkillUp EdTech.
+                Completed: Modern Project Management
+                Skills acquired: Business Analysis, Communication, Leadership and Management, Project Management, Risk Management
+                Proficient in: Business Analysis, Communication, Leadership and Management, Project Management, Risk Management
+                Experience: 2-4 years applying these skills
+                ",Product Manager,"Business Analysis, Communication, Leadership and Management, Project Management, Risk Management",synthetic_from_course
+"
+                Product Manager certified by University of Virginia.
+                Completed: Digital Product Management
+                Skills acquired: Agile Software Development, Product Management, Leadership and Management, Design and Product, Software Engineering, Product Development, Project Management, User Experience, Customer Analysis, Product Design, User Research, Data Analysis
+                Proficient in: Agile Software Development, Product Management, Leadership and Management, Design and Product, Software Engineering, Product Development, Project Management, User Experience
+                Experience: 2-4 years applying these skills
+                ",Product Manager,"Agile Software Development, Product Management, Leadership and Management, Design and Product, Software Engineering, Product Development, Project Management, User Experience, Customer Analysis, Product Design, User Research, Data Analysis",synthetic_from_course
+"
+                Product Manager certified by Google.
+                Completed: Agile Project Management
+                Skills acquired: Agile Software Development, Software Engineering, Project Management, Scrum (Software Development), Strategy and Operations, Collaboration, Leadership and Management, Communication, Entrepreneurship, Product Management, Influencing, Problem Solving
+                Proficient in: Agile Software Development, Software Engineering, Project Management, Scrum (Software Development), Strategy and Operations, Collaboration, Leadership and Management, Communication
+                Experience: 2-4 years applying these skills
+                ",Product Manager,"Agile Software Development, Software Engineering, Project Management, Scrum (Software Development), Strategy and Operations, Collaboration, Leadership and Management, Communication, Entrepreneurship, Product Management, Influencing, Problem Solving",synthetic_from_course
+"
+                Data Scientist certified by IBM.
+                Completed: IBM Data Science
+                Skills acquired: Python Programming, Data Science, Machine Learning, Data Analysis, Algorithms, Data Management, Data Visualization, Human Learning, R Programming, Computer Programming, Data Mining, Data Structures
+                Proficient in: Python Programming, Data Science, Machine Learning, Data Analysis, Algorithms, Data Management, Data Visualization, Human Learning
+                Experience: 2-4 years applying these skills
+                ",Data Scientist,"Python Programming, Data Science, Machine Learning, Data Analysis, Algorithms, Data Management, Data Visualization, Human Learning, R Programming, Computer Programming, Data Mining, Data Structures",synthetic_from_course
+"
+                Data Scientist certified by Multiple educators.
+                Completed: Machine Learning
+                Skills acquired: Machine Learning, Machine Learning Algorithms, Applied Machine Learning, Algorithms, Deep Learning, Machine Learning Software, Artificial Neural Networks, Human Learning, Python Programming, Regression, Statistical Machine Learning, Tensorflow
+                Proficient in: Machine Learning, Machine Learning Algorithms, Applied Machine Learning, Algorithms, Deep Learning, Machine Learning Software, Artificial Neural Networks, Human Learning
+                Experience: 2-4 years applying these skills
+                ",Data Scientist,"Machine Learning, Machine Learning Algorithms, Applied Machine Learning, Algorithms, Deep Learning, Machine Learning Software, Artificial Neural Networks, Human Learning, Python Programming, Regression, Statistical Machine Learning, Tensorflow",synthetic_from_course
+"
+                Data Scientist certified by IBM.
+                Completed: IBM Applied AI
+                Skills acquired: Machine Learning, Deep Learning, Machine Learning Algorithms, Artificial Neural Networks, Python Programming, Cloud Computing, Computer Vision, Human Learning, IBM Cloud, Applied Machine Learning, Algorithms, Cloud API
+                Proficient in: Machine Learning, Deep Learning, Machine Learning Algorithms, Artificial Neural Networks, Python Programming, Cloud Computing, Computer Vision, Human Learning
+                Experience: 2-4 years applying these skills
+                ",Data Scientist,"Machine Learning, Deep Learning, Machine Learning Algorithms, Artificial Neural Networks, Python Programming, Cloud Computing, Computer Vision, Human Learning, IBM Cloud, Applied Machine Learning, Algorithms, Cloud API",synthetic_from_course
+"
+                Data Scientist certified by IBM.
+                Completed: Introduction to Data Science
+                Skills acquired: Data Science, Python Programming, Data Analysis, Data Management, R Programming, Computer Programming, Data Mining, Data Structures, Database Administration, Database Application, Database Theory, Databases
+                Proficient in: Data Science, Python Programming, Data Analysis, Data Management, R Programming, Computer Programming, Data Mining, Data Structures
+                Experience: 2-4 years applying these skills
+                ",Data Scientist,"Data Science, Python Programming, Data Analysis, Data Management, R Programming, Computer Programming, Data Mining, Data Structures, Database Administration, Database Application, Database Theory, Databases",synthetic_from_course
+"
+                Data Scientist certified by IBM.
+                Completed: Data Science Fundamentals with Python and SQL
+                Skills acquired: Python Programming, Data Analysis, General Statistics, Probability & Statistics, Basic Descriptive Statistics, Statistical Analysis, Statistical Tests, Mathematical Theory & Analysis, Statistical Programming, Computer Programming, Data Visualization, Data Science
+                Proficient in: Python Programming, Data Analysis, General Statistics, Probability & Statistics, Basic Descriptive Statistics, Statistical Analysis, Statistical Tests, Mathematical Theory & Analysis
+                Experience: 2-4 years applying these skills
+                ",Data Scientist,"Python Programming, Data Analysis, General Statistics, Probability & Statistics, Basic Descriptive Statistics, Statistical Analysis, Statistical Tests, Mathematical Theory & Analysis, Statistical Programming, Computer Programming, Data Visualization, Data Science",synthetic_from_course
+"
+                Software Engineer certified by Google.
+                Completed: Google Digital Marketing & E-commerce
+                Skills acquired: Digital Marketing, Marketing, Marketing Management, Media Strategy & Planning, Sales, E-Commerce, Data Analysis, Social Media, Search Engine Optimization, Advertising, Communication, Persona Research
+                Proficient in: Digital Marketing, Marketing, Marketing Management, Media Strategy & Planning, Sales, E-Commerce, Data Analysis, Social Media
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"Digital Marketing, Marketing, Marketing Management, Media Strategy & Planning, Sales, E-Commerce, Data Analysis, Social Media, Search Engine Optimization, Advertising, Communication, Persona Research",synthetic_from_course
+"
+                Software Engineer certified by Google.
+                Completed: Google IT Support
+                Skills acquired: Computer Networking, Network Architecture, Network Model, Networking Hardware, Network Analysis, Computer Architecture, Critical Thinking, Problem Solving, Communication, Human Computer Interaction, Network Security, Linux
+                Proficient in: Computer Networking, Network Architecture, Network Model, Networking Hardware, Network Analysis, Computer Architecture, Critical Thinking, Problem Solving
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"Computer Networking, Network Architecture, Network Model, Networking Hardware, Network Analysis, Computer Architecture, Critical Thinking, Problem Solving, Communication, Human Computer Interaction, Network Security, Linux",synthetic_from_course
+"
+                Software Engineer certified by Google.
+                Completed: Google UX Design
+                Skills acquired: User Experience, User Experience Design, User Research, Audit, Collaboration, Human Computer Interaction, Planning, Product Design, Product Development, Social Media, Web Design, Web Development Tools
+                Proficient in: User Experience, User Experience Design, User Research, Audit, Collaboration, Human Computer Interaction, Planning, Product Design
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"User Experience, User Experience Design, User Research, Audit, Collaboration, Human Computer Interaction, Planning, Product Design, Product Development, Social Media, Web Design, Web Development Tools",synthetic_from_course
+"
+                Software Engineer certified by IBM.
+                Completed: IBM DevOps and Software Engineering
+                Skills acquired: DevOps, Software Engineering, Cloud Computing, Computer Programming, Application Development, Python Programming, Software Architecture, Cloud Applications, Continuous Delivery, Continuous Integration, Software Engineering Tools, Agile Software Development
+                Proficient in: DevOps, Software Engineering, Cloud Computing, Computer Programming, Application Development, Python Programming, Software Architecture, Cloud Applications
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"DevOps, Software Engineering, Cloud Computing, Computer Programming, Application Development, Python Programming, Software Architecture, Cloud Applications, Continuous Delivery, Continuous Integration, Software Engineering Tools, Agile Software Development",synthetic_from_course
+"
+                Software Engineer certified by IBM.
+                Completed: Key Technologies for Business
+                Skills acquired: Algorithms, Applied Machine Learning, Artificial Neural Networks, Computer Vision, Deep Learning, Human Learning, Machine Learning, Machine Learning Algorithms, Machine Learning Software, Cloud Computing, Data Science, Critical Thinking
+                Proficient in: Algorithms, Applied Machine Learning, Artificial Neural Networks, Computer Vision, Deep Learning, Human Learning, Machine Learning, Machine Learning Algorithms
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"Algorithms, Applied Machine Learning, Artificial Neural Networks, Computer Vision, Deep Learning, Human Learning, Machine Learning, Machine Learning Algorithms, Machine Learning Software, Cloud Computing, Data Science, Critical Thinking",synthetic_from_course
+"
+                Web Developer certified by IBM.
+                Completed: IBM Full Stack Software Developer
+                Skills acquired: Cloud Computing, Python Programming, Cloud Applications, Computer Programming, IBM Cloud, Application Development, Cloud Infrastructure, DevOps, Web Development, Cloud Management, Cloud Platforms, Javascript
+                Proficient in: Cloud Computing, Python Programming, Cloud Applications, Computer Programming, IBM Cloud, Application Development, Cloud Infrastructure, DevOps
+                Experience: 2-4 years applying these skills
+                ",Web Developer,"Cloud Computing, Python Programming, Cloud Applications, Computer Programming, IBM Cloud, Application Development, Cloud Infrastructure, DevOps, Web Development, Cloud Management, Cloud Platforms, Javascript",synthetic_from_course
+"
+                Web Developer certified by IBM.
+                Completed: IBM Full-Stack JavaScript Developer
+                Skills acquired: Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication, DevOps, Programming Principles, Web Development, Agile Software Development
+                Proficient in: Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication
+                Experience: 2-4 years applying these skills
+                ",Web Developer,"Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication, DevOps, Programming Principles, Web Development, Agile Software Development",synthetic_from_course
+"
+                Web Developer certified by IBM.
+                Completed: IBM Back-end JavaScript Developer
+                Skills acquired: Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication, DevOps, Programming Principles, Web Development, Agile Software Development
+                Proficient in: Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication
+                Experience: 2-4 years applying these skills
+                ",Web Developer,"Software Engineering, Computer Programming, Software Architecture, Application Development, Software Engineering Tools, Cloud Applications, Cloud Computing, Communication, DevOps, Programming Principles, Web Development, Agile Software Development",synthetic_from_course
+"
+                Web Developer certified by IBM.
+                Completed: JavaScript Programming with React, Node & MongoDB
+                Skills acquired: Javascript, Computer Programming, Web Development, Computer Science, Front-End Web Development, NoSQL, React (web framework)
+                Proficient in: Javascript, Computer Programming, Web Development, Computer Science, Front-End Web Development, NoSQL, React (web framework)
+                Experience: 2-4 years applying these skills
+                ",Web Developer,"Javascript, Computer Programming, Web Development, Computer Science, Front-End Web Development, NoSQL, React (web framework)",synthetic_from_course
+"
+                Web Developer certified by Johns Hopkins University.
+                Completed: HTML, CSS, and Javascript for Web Developers
+                Skills acquired: Front-End Web Development, HTML and CSS, Javascript, Web Development
+                Proficient in: Front-End Web Development, HTML and CSS, Javascript, Web Development
+                Experience: 2-4 years applying these skills
+                ",Web Developer,"Front-End Web Development, HTML and CSS, Javascript, Web Development",synthetic_from_course
+"
+                Data Engineer certified by IBM.
+                Completed: IBM Data Engineering
+                Skills acquired: Data Management, Databases, Database Administration, Extract, Transform, Load, Python Programming, Big Data, SQL, Apache, Database Design, Distributed Computing Architecture
+                Proficient in: Data Management, Databases, Database Administration, Extract, Transform, Load, Python Programming, Big Data
+                Experience: 2-4 years applying these skills
+                ",Data Engineer,"Data Management, Databases, Database Administration, Extract, Transform, Load, Python Programming, Big Data, SQL, Apache, Database Design, Distributed Computing Architecture",synthetic_from_course
+"
+                Data Engineer certified by IBM.
+                Completed: Data Engineering Foundations
+                Skills acquired: Data Management, Python Programming, Data Structures, Databases, Data Engineering, Database Application, SQL, Database Administration, Database Design, Extract, Transform, Load
+                Proficient in: Data Management, Python Programming, Data Structures, Databases, Data Engineering, Database Application, SQL, Database Administration
+                Experience: 2-4 years applying these skills
+                ",Data Engineer,"Data Management, Python Programming, Data Structures, Databases, Data Engineering, Database Application, SQL, Database Administration, Database Design, Extract, Transform, Load",synthetic_from_course
+"
+                Data Engineer certified by Google Cloud.
+                Completed: Preparing for Google Cloud Certification: Cloud Data Engineer
+                Skills acquired: Cloud Computing, Google Cloud Platform, Cloud Platforms, Big Data, Data Management, Data Analysis, Data Analysis Software, Databases, Computer Networking, Applied Machine Learning, Data Warehousing, Machine Learning
+                Proficient in: Cloud Computing, Google Cloud Platform, Cloud Platforms, Big Data, Data Management, Data Analysis, Data Analysis Software, Databases
+                Experience: 2-4 years applying these skills
+                ",Data Engineer,"Cloud Computing, Google Cloud Platform, Cloud Platforms, Big Data, Data Management, Data Analysis, Data Analysis Software, Databases, Computer Networking, Applied Machine Learning, Data Warehousing, Machine Learning",synthetic_from_course
+"
+                Data Engineer certified by IBM.
+                Completed: NoSQL, Big Data, and Spark Foundations
+                Skills acquired: Apache, Big Data, Data Management, Distributed Computing Architecture, Databases, NoSQL, Extract, Transform, Load, SQL, Cloud Computing, Data Model
+                Proficient in: Apache, Big Data, Data Management, Distributed Computing Architecture, Databases, NoSQL, Extract, Transform
+                Experience: 2-4 years applying these skills
+                ",Data Engineer,"Apache, Big Data, Data Management, Distributed Computing Architecture, Databases, NoSQL, Extract, Transform, Load, SQL, Cloud Computing, Data Model",synthetic_from_course
+"
+                Data Engineer certified by IBM.
+                Completed: Introduction to Data Engineering
+                Skills acquired: Data Engineering, Data Management, Extract, Transform, Load, Databases, Network Security, Big Data, Data Warehousing, Leadership and Management, SQL, Data Science
+                Proficient in: Data Engineering, Data Management, Extract, Transform, Load, Databases, Network Security, Big Data
+                Experience: 2-4 years applying these skills
+                ",Data Engineer,"Data Engineering, Data Management, Extract, Transform, Load, Databases, Network Security, Big Data, Data Warehousing, Leadership and Management, SQL, Data Science",synthetic_from_course
+"
+                Cloud Architect certified by IBM.
+                Completed: Cloud Application Development Foundations
+                Skills acquired: Cloud Computing, Cloud Applications, IBM Cloud, Javascript, Cloud Infrastructure, Cloud Platforms, DevOps, Cloud Management, Computer Programming, Web Development, Cloud API, Cloud Storage
+                Proficient in: Cloud Computing, Cloud Applications, IBM Cloud, Javascript, Cloud Infrastructure, Cloud Platforms, DevOps, Cloud Management
+                Experience: 2-4 years applying these skills
+                ",Cloud Architect,"Cloud Computing, Cloud Applications, IBM Cloud, Javascript, Cloud Infrastructure, Cloud Platforms, DevOps, Cloud Management, Computer Programming, Web Development, Cloud API, Cloud Storage",synthetic_from_course
+"
+                Cloud Architect certified by IBM.
+                Completed: DevOps, Cloud, and Agile Foundations
+                Skills acquired: DevOps, Cloud Computing, Software Engineering, Agile Software Development, Continuous Delivery, Continuous Integration, Scrum (Software Development), Cloud Applications, Cloud Infrastructure, Cloud Platforms, Cloud Storage, IBM Cloud
+                Proficient in: DevOps, Cloud Computing, Software Engineering, Agile Software Development, Continuous Delivery, Continuous Integration, Scrum (Software Development), Cloud Applications
+                Experience: 2-4 years applying these skills
+                ",Cloud Architect,"DevOps, Cloud Computing, Software Engineering, Agile Software Development, Continuous Delivery, Continuous Integration, Scrum (Software Development), Cloud Applications, Cloud Infrastructure, Cloud Platforms, Cloud Storage, IBM Cloud",synthetic_from_course
+"
+                Cloud Architect certified by IBM.
+                Completed: Information Technology (IT) and Cloud Fundamentals
+                Skills acquired: Cloud Computing, Computer Networking, Operating Systems, Cloud Storage, System Security, Cloud Applications, Cyberattacks, Cloud Infrastructure, Cloud Platforms, Databases, DevOps, Networking Hardware
+                Proficient in: Cloud Computing, Computer Networking, Operating Systems, Cloud Storage, System Security, Cloud Applications, Cyberattacks, Cloud Infrastructure
+                Experience: 2-4 years applying these skills
+                ",Cloud Architect,"Cloud Computing, Computer Networking, Operating Systems, Cloud Storage, System Security, Cloud Applications, Cyberattacks, Cloud Infrastructure, Cloud Platforms, Databases, DevOps, Networking Hardware",synthetic_from_course
+"
+                Cloud Architect certified by Google Cloud.
+                Completed: Preparing for Google Cloud Certification: Cloud Architect
+                Skills acquired: Google Cloud Platform, Cloud Computing, Cloud Applications, Cloud Engineering, Cloud Platforms, Cloud Infrastructure, Cloud Management, Cloud Storage, Other Cloud Platforms and Tools, Cloud-Based Integration, Computer Networking, DevOps
+                Proficient in: Google Cloud Platform, Cloud Computing, Cloud Applications, Cloud Engineering, Cloud Platforms, Cloud Infrastructure, Cloud Management, Cloud Storage
+                Experience: 2-4 years applying these skills
+                ",Cloud Architect,"Google Cloud Platform, Cloud Computing, Cloud Applications, Cloud Engineering, Cloud Platforms, Cloud Infrastructure, Cloud Management, Cloud Storage, Other Cloud Platforms and Tools, Cloud-Based Integration, Computer Networking, DevOps",synthetic_from_course
+"
+                Cloud Architect certified by Google Cloud.
+                Completed: Preparing for Google Cloud Certification: Cloud Engineer
+                Skills acquired: Cloud Computing, Google Cloud Platform, Cloud Platforms, Cloud Applications, Cloud Engineering, Cloud Storage, Cloud Infrastructure, Cloud Management, Computer Networking, Cloud-Based Integration, Computer Architecture, Google App Engine
+                Proficient in: Cloud Computing, Google Cloud Platform, Cloud Platforms, Cloud Applications, Cloud Engineering, Cloud Storage, Cloud Infrastructure, Cloud Management
+                Experience: 2-4 years applying these skills
+                ",Cloud Architect,"Cloud Computing, Google Cloud Platform, Cloud Platforms, Cloud Applications, Cloud Engineering, Cloud Storage, Cloud Infrastructure, Cloud Management, Computer Networking, Cloud-Based Integration, Computer Architecture, Google App Engine",synthetic_from_course
+"
+                Devops Engineer certified by IBM.
+                Completed: IBM Applied DevOps Engineering
+                Skills acquired: DevOps, Software Engineering, Cloud Computing, Continuous Delivery, Continuous Integration, Application Development, Cloud Applications, Software Architecture, Security Engineering, Computer Programming, Kubernetes, Cloud Infrastructure
+                Proficient in: DevOps, Software Engineering, Cloud Computing, Continuous Delivery, Continuous Integration, Application Development, Cloud Applications, Software Architecture
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"DevOps, Software Engineering, Cloud Computing, Continuous Delivery, Continuous Integration, Application Development, Cloud Applications, Software Architecture, Security Engineering, Computer Programming, Kubernetes, Cloud Infrastructure",synthetic_from_course
+"
+                Mobile Developer certified by Meta.
+                Completed: Meta iOS Developer
+                Skills acquired: Mobile Development, Swift Programming, iOS Development, Computer Programming, Mobile Development Tools, React (web framework), Application Development, Software Engineering, Data Structures, User Experience, User Experience Design, Web Development
+                Proficient in: Mobile Development, Swift Programming, iOS Development, Computer Programming, Mobile Development Tools, React (web framework), Application Development, Software Engineering
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"Mobile Development, Swift Programming, iOS Development, Computer Programming, Mobile Development Tools, React (web framework), Application Development, Software Engineering, Data Structures, User Experience, User Experience Design, Web Development",synthetic_from_course
+"
+                Mobile Developer certified by Meta.
+                Completed: Meta Android Developer
+                Skills acquired: Mobile Development, Computer Programming, React (web framework), Mobile Development Tools, Application Development, Software Engineering, Android Development, Other Programming Languages, Web Development, User Experience, Algorithms, Computer Science
+                Proficient in: Mobile Development, Computer Programming, React (web framework), Mobile Development Tools, Application Development, Software Engineering, Android Development, Other Programming Languages
+                Experience: 2-4 years applying these skills
+                ",Software Engineer,"Mobile Development, Computer Programming, React (web framework), Mobile Development Tools, Application Development, Software Engineering, Android Development, Other Programming Languages, Web Development, User Experience, Algorithms, Computer Science",synthetic_from_course

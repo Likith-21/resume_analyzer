@@ -1,0 +1,58 @@
+============================================================
+  MACHINE LEARNING MODEL TRAINING REPORT
+============================================================
+
+Training Date: 2026-03-08 13:19:08
+
+DATASET INFORMATION
+------------------------------------------------------------
+Total records: 162
+Categories: 8
+Category distribution:
+  Data Analyst: 88
+  Software Engineer: 37
+  Data Scientist: 9
+  Data Engineer: 6
+  Cloud Architect: 6
+  Product Manager: 6
+  Cybersecurity: 5
+  Web Developer: 5
+
+
+RESUME CATEGORY CLASSIFIER
+------------------------------------------------------------
+Best Model: Gradient Boosting
+Best F1-Score: 0.8126
+
+Logistic Regression:
+  accuracy: 0.6667
+  precision: 0.5168
+  recall: 0.6667
+  f1: 0.5816
+
+Random Forest:
+  accuracy: 0.7879
+  precision: 0.7316
+  recall: 0.7879
+  f1: 0.7563
+
+Gradient Boosting:
+  accuracy: 0.8182
+  precision: 0.8346
+  recall: 0.8182
+  f1: 0.8126
+
+
+SKILL EXTRACTOR MODEL
+------------------------------------------------------------
+Top skills trained: 10
+  R: 0.8788 accuracy
+  C: 0.9394 accuracy
+  SQL: 0.6667 accuracy
+  Go: 0.7576 accuracy
+  Communication: 0.6667 accuracy
+  Data Analysis: 0.7879 accuracy
+  GAN: 0.7576 accuracy
+  Python: 0.8182 accuracy
+  RDS: 0.7273 accuracy
+  Tableau: 0.6970 accuracy
