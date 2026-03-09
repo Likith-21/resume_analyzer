@@ -355,17 +355,25 @@ def main():
         </div>
         """, unsafe_allow_html=True)
         
-        # Get real-time system info
+        # Get real-time system info with error handling
+        system_ready = "✅ Ready"
+        skill_count = 0
+        jobs_count = 0
+        
         try:
             from data.skills_database import get_all_skills
             skill_count = len(get_all_skills())
+        except Exception as skill_error:
+            system_ready = "⚠️ Partial"
+            st.sidebar.warning(f"Skills load error: {str(skill_error)[:50]}")
+        
+        try:
             jobs_df = load_jobs_data()
-            jobs_count = len(jobs_df)
-            system_ready = "✅ Ready"
-        except Exception as e:
-            skill_count = 0
-            jobs_count = 0
-            system_ready = "⚠️ Error"
+            jobs_count = len(jobs_df) if jobs_df is not None else 0
+        except Exception as job_error:
+            if system_ready == "✅ Ready":
+                system_ready = "⚠️ Partial"
+            st.sidebar.warning(f"Jobs load error: {str(job_error)[:50]}")
         
         st.markdown(f"""
         <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem;'>
@@ -429,26 +437,44 @@ def resume_screening_page():
         )
     
     if uploaded_file is not None:
-        # Save and process file
-        file_path = save_uploaded_file(uploaded_file)
-        st.success(f"✅ File uploaded: {uploaded_file.name}")
-        
         try:
-            # Parse resume
-            resume_text = ResumeParser.extract_text_from_file(file_path)
+            # Save and process file
+            file_path = save_uploaded_file(uploaded_file)
+            st.success(f"✅ File uploaded: {uploaded_file.name}")
             
-            # Extract skills
-            skill_extractor = SkillExtractor()
-            detected_skills = skill_extractor.extract_skills(resume_text)
-            skills_by_category = skill_extractor.extract_skills_by_category(resume_text)
-            education = skill_extractor.extract_education(resume_text)
-            experience_years = skill_extractor.estimate_experience_years(resume_text)
-            skill_score = skill_extractor.get_skill_score(detected_skills)
+            # Parse resume with error handling
+            try:
+                resume_text = ResumeParser.extract_text_from_file(file_path)
+                
+                if not resume_text or len(resume_text.strip()) == 0:
+                    st.error("❌ Could not extract text from file. Please ensure the file is readable.")
+                    return
+                
+            except Exception as parse_error:
+                st.error(f"❌ Error parsing file: {str(parse_error)}")
+                return
+            
+            # Extract skills with error handling
+            try:
+                skill_extractor = SkillExtractor()
+                detected_skills = skill_extractor.extract_skills(resume_text)
+                skills_by_category = skill_extractor.extract_skills_by_category(resume_text)
+                education = skill_extractor.extract_education(resume_text)
+                experience_years = skill_extractor.estimate_experience_years(resume_text)
+                skill_score = skill_extractor.get_skill_score(detected_skills)
+            except Exception as skill_error:
+                st.error(f"❌ Error extracting skills: {str(skill_error)}")
+                return
             
             # Extract contact info
-            email = ResumeParser.extract_email(resume_text)
-            phone = ResumeParser.extract_phone(resume_text)
-            urls = ResumeParser.extract_urls(resume_text)
+            try:
+                email = ResumeParser.extract_email(resume_text)
+                phone = ResumeParser.extract_phone(resume_text)
+                urls = ResumeParser.extract_urls(resume_text)
+            except Exception as contact_error:
+                email = "Not found"
+                phone = "Not found"
+                urls = []
             
             # Display results
             st.markdown("---")
@@ -457,34 +483,36 @@ def resume_screening_page():
             # Metrics
             col1, col2, col3, col4 = st.columns(4)
             with col1:
-                st.metric("Total Skills Detected", len(detected_skills))
+                st.metric("Total Skills Detected", len(detected_skills) if detected_skills else 0)
             with col2:
-                st.metric("Estimated Experience", f"{experience_years} years")
+                st.metric("Estimated Experience", f"{experience_years} years" if experience_years else "0 years")
             with col3:
-                st.metric("Skill Score", f"{skill_score:.1f}/100")
+                st.metric("Skill Score", f"{skill_score:.1f}/100" if skill_score else "0/100")
             with col4:
-                st.metric("Education Found", len(education))
+                st.metric("Education Found", len(education) if education else 0)
             
             # Contact Information
             st.markdown("### 📧 Contact Information")
             col1, col2, col3 = st.columns(3)
             with col1:
-                st.text_input("Email", value=email, disabled=True)
+                st.text_input("Email", value=email if email else "Not found", disabled=True)
             with col2:
-                st.text_input("Phone", value=phone, disabled=True)
+                st.text_input("Phone", value=phone if phone else "Not found", disabled=True)
             with col3:
-                if urls:
+                if urls and len(urls) > 0:
                     st.text_input("Profiles", value=urls[0], disabled=True)
+                else:
+                    st.text_input("Profiles", value="Not found", disabled=True)
             
             # Education
-            if education:
+            if education and len(education) > 0:
                 st.markdown("### 🎓 Education")
                 st.write(", ".join(education))
             
             # Skills by Category
             st.markdown("### 💼 Skills Detected by Category")
             
-            if skills_by_category:
+            if skills_by_category and len(skills_by_category) > 0:
                 for category, skills in skills_by_category.items():
                     with st.expander(f"{category.replace('_', ' ').title()} ({len(skills)})"):
                         skill_html = " ".join([f'<span class="skill-tag">{skill}</span>' for skill in skills])
@@ -494,16 +522,16 @@ def resume_screening_page():
             
             # Store in session for other pages
             st.session_state.resume_text = resume_text
-            st.session_state.detected_skills = detected_skills
-            st.session_state.experience_years = experience_years
-            st.session_state.skill_score = skill_score
+            st.session_state.detected_skills = detected_skills if detected_skills else []
+            st.session_state.experience_years = experience_years if experience_years else 0
+            st.session_state.skill_score = skill_score if skill_score else 0
             
             # Show raw text option
             if st.checkbox("Show extracted resume text"):
-                st.text_area("Extracted Resume Text", value=resume_text, height=300, disabled=True)
+                st.text_area("Extracted Resume Text", value=resume_text[:1000], height=300, disabled=True)
         
         except Exception as e:
-            st.error(f"❌ Error processing resume: {str(e)}")
+            st.error(f"❌ Unexpected error: {str(e)}")
     
     else:
         st.info("👆 Upload a resume file to get started!")
@@ -516,82 +544,112 @@ def job_recommendations_page():
         st.warning("⚠️ Please upload a resume first on the 'Resume Screening' page")
         return
     
-    # Load jobs
-    jobs_df = load_jobs_data()
+    try:
+        # Load jobs with error handling
+        jobs_df = load_jobs_data()
+        
+        if jobs_df is None or len(jobs_df) == 0:
+            st.error("❌ No jobs data available. Please check the data files.")
+            return
+        
+        # Create matcher
+        matcher = JobMatcher(jobs_df)
+        
+        # Get recommendations with error handling
+        try:
+            recommendations = matcher.get_top_recommendations(
+                st.session_state.get('resume_text', ''),
+                st.session_state.get('detected_skills', []),
+                top_n=15
+            )
+            
+            if not recommendations or len(recommendations) == 0:
+                st.warning("⚠️ No job matches found. Try uploading a resume with more details.")
+                return
+                
+        except Exception as match_error:
+            st.error(f"❌ Error generating recommendations: {str(match_error)}")
+            return
+        
+        st.markdown("### 🎯 Top Job Matches for Your Profile")
+        
+        # Display recommendations
+        for idx, job in enumerate(recommendations[:10], 1):
+            try:
+                with st.expander(
+                    f"#{idx} {job.get('job_title', 'Job')} at {job.get('company', 'Company')} - {job.get('combined_score', 0):.1f}% Match",
+                    expanded=(idx == 1)
+                ):
+                    col1, col2, col3 = st.columns(3)
+                    
+                    with col1:
+                        score = job.get('combined_score', 0)
+                        if score >= 70:
+                            st.success(f"**Match Score: {score:.1f}%**")
+                        elif score >= 50:
+                            st.warning(f"**Match Score: {score:.1f}%**")
+                        else:
+                            st.error(f"**Match Score: {score:.1f}%**")
+                    
+                    with col2:
+                        st.write(f"**Location:** {job.get('location', 'N/A')}")
+                        st.write(f"**Experience Required:** {job.get('experience_required', 0)} years")
+                    
+                    with col3:
+                        st.write(f"**Salary Range:** {job.get('salary_range', 'N/A')}")
+                    
+                    # Skill breakdown
+                    st.markdown("#### Skill Match Breakdown")
+                    col1, col2 = st.columns(2)
+                    
+                    skill_match = job.get('skill_match', 0)
+                    similarity = job.get('similarity_score', 0)
+                    
+                    with col1:
+                        st.progress(skill_match / 100, text=f"Skills: {skill_match:.1f}%")
+                    with col2:
+                        st.progress(similarity / 100, text=f"Content Match: {similarity:.1f}%")
+                    
+                    # Matching skills
+                    matching_skills = job.get('matching_skills', [])
+                    if matching_skills and len(matching_skills) > 0:
+                        st.markdown("**✅ Matching Skills:**")
+                        skill_html = " ".join([f'<span class="skill-tag match-high">{skill.strip()}</span>' 
+                                              for skill in matching_skills])
+                        st.markdown(skill_html, unsafe_allow_html=True)
+                    
+                    # Missing skills
+                    missing_skills = job.get('missing_skills', [])
+                    if missing_skills and len(missing_skills) > 0:
+                        st.markdown("**❌ Missing Skills:**")
+                        skill_html = " ".join([f'<span class="skill-tag match-low">{skill.strip()}</span>' 
+                                              for skill in missing_skills])
+                        st.markdown(skill_html, unsafe_allow_html=True)
+            
+            except Exception as item_error:
+                st.warning(f"Could not display job #{idx}: {str(item_error)[:50]}")
+                continue
+        
+        # Summary statistics
+        st.markdown("---")
+        st.markdown("### 📈 Recommendation Summary")
+        
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            high_matches = len([j for j in recommendations if j.get('combined_score', 0) >= 70])
+            st.metric("High Matches (≥70%)", high_matches)
+        with col2:
+            medium_matches = len([j for j in recommendations if 50 <= j.get('combined_score', 0) < 70])
+            st.metric("Medium Matches (50-70%)", medium_matches)
+        with col3:
+            if len(recommendations) > 0:
+                avg_score = sum(j.get('combined_score', 0) for j in recommendations) / len(recommendations)
+                st.metric("Average Match Score", f"{avg_score:.1f}%")
+            else:
+                st.metric("Average Match Score", "0%")
     
-    # Create matcher
-    matcher = JobMatcher(jobs_df)
-    
-    # Get recommendations
-    recommendations = matcher.get_top_recommendations(
-        st.session_state.resume_text,
-        st.session_state.detected_skills,
-        top_n=15
-    )
-    
-    st.markdown("### 🎯 Top Job Matches for Your Profile")
-    
-    # Display recommendations
-    for idx, job in enumerate(recommendations[:10], 1):
-        with st.expander(
-            f"#{idx} {job['job_title']} at {job['company']} - {job['combined_score']:.1f}% Match",
-            expanded=(idx == 1)
-        ):
-            col1, col2, col3 = st.columns(3)
-            
-            with col1:
-                # Score visualization
-                if job['combined_score'] >= 70:
-                    st.success(f"**Match Score: {job['combined_score']:.1f}%**")
-                elif job['combined_score'] >= 50:
-                    st.warning(f"**Match Score: {job['combined_score']:.1f}%**")
-                else:
-                    st.error(f"**Match Score: {job['combined_score']:.1f}%**")
-            
-            with col2:
-                st.write(f"**Location:** {job['location']}")
-                st.write(f"**Experience Required:** {job['experience_required']} years")
-            
-            with col3:
-                st.write(f"**Salary Range:** {job['salary_range']}")
-            
-            # Skill breakdown
-            st.markdown("#### Skill Match Breakdown")
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.progress(job['skill_match'] / 100, text=f"Skills: {job['skill_match']:.1f}%")
-            with col2:
-                st.progress(job['similarity_score'] / 100, text=f"Content Match: {job['similarity_score']:.1f}%")
-            
-            # Matching skills
-            if job['matching_skills']:
-                st.markdown("**✅ Matching Skills:**")
-                skill_html = " ".join([f'<span class="skill-tag match-high">{skill.strip()}</span>' 
-                                      for skill in job['matching_skills']])
-                st.markdown(skill_html, unsafe_allow_html=True)
-            
-            # Missing skills
-            if job['missing_skills']:
-                st.markdown("**❌ Missing Skills:**")
-                skill_html = " ".join([f'<span class="skill-tag match-low">{skill.strip()}</span>' 
-                                      for skill in job['missing_skills']])
-                st.markdown(skill_html, unsafe_allow_html=True)
-    
-    # Summary statistics
-    st.markdown("---")
-    st.markdown("### 📈 Recommendation Summary")
-    
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        high_matches = len([j for j in recommendations if j['combined_score'] >= 70])
-        st.metric("High Matches (≥70%)", high_matches)
-    with col2:
-        medium_matches = len([j for j in recommendations if 50 <= j['combined_score'] < 70])
-        st.metric("Medium Matches (50-70%)", medium_matches)
-    with col3:
-        avg_score = sum(j['combined_score'] for j in recommendations) / len(recommendations)
-        st.metric("Average Match Score", f"{avg_score:.1f}%")
+    except Exception as e:
+        st.error(f"❌ Error in job recommendations: {str(e)}")
 
 
 def skill_gap_analysis_page():
@@ -601,67 +659,102 @@ def skill_gap_analysis_page():
         st.warning("⚠️ Please upload a resume first on the 'Resume Screening' page")
         return
     
-    jobs_df = load_jobs_data()
-    matcher = JobMatcher(jobs_df)
+    try:
+        jobs_df = load_jobs_data()
+        
+        if jobs_df is None or len(jobs_df) == 0:
+            st.error("❌ No jobs data available.")
+            return
+        
+        matcher = JobMatcher(jobs_df)
+        
+        # Select job with error handling
+        try:
+            job_titles = jobs_df['job_title'].unique()
+            if len(job_titles) == 0:
+                st.error("❌ No job titles available.")
+                return
+            
+            selected_job = st.selectbox(
+                "Select a job to analyze skill gap:",
+                job_titles
+            )
+        except Exception as select_error:
+            st.error(f"❌ Error selecting job: {str(select_error)}")
+            return
+        
+        if selected_job:
+            try:
+                # Analyze gap
+                gap_analysis = matcher.analyze_skill_gap(
+                    st.session_state.get('detected_skills', []),
+                    selected_job
+                )
+                
+                if gap_analysis is None:
+                    st.error("❌ Could not analyze skill gap.")
+                    return
+                
+                st.markdown(f"### 📊 Skill Gap for {selected_job}")
+                st.markdown(f"Company: **{gap_analysis.get('company', 'N/A')}**")
+                
+                # Progress bar
+                match_percent = gap_analysis.get('skill_match_percentage', 0)
+                st.progress(match_percent / 100, text=f"Overall Match: {match_percent:.1f}%")
+                
+                # Metrics
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("You Have", len(gap_analysis.get('matching_skills', [])))
+                with col2:
+                    st.metric("Total Required", gap_analysis.get('total_required', 0))
+                with col3:
+                    st.metric("You Need", len(gap_analysis.get('missing_skills', [])))
+                
+                # Details
+                st.markdown("---")
+                
+                col1, col2 = st.columns(2)
+                
+                matching = gap_analysis.get('matching_skills', [])
+                missing = gap_analysis.get('missing_skills', [])
+                
+                with col1:
+                    st.markdown("#### ✅ Skills You Have")
+                    if matching and len(matching) > 0:
+                        for skill in matching:
+                            st.write(f"✓ {skill}")
+                    else:
+                        st.info("No matching skills found")
+                
+                with col2:
+                    st.markdown("#### ❌ Skills You Need to Learn")
+                    if missing and len(missing) > 0:
+                        for idx, skill in enumerate(missing, 1):
+                            st.write(f"{idx}. {skill}")
+                    else:
+                        st.success("You have all required skills!")
+                
+                # Experience gap
+                st.markdown("---")
+                st.markdown("#### Experience Gap")
+                exp_required = gap_analysis.get('experience_required', 0)
+                exp_yours = st.session_state.get('experience_years', 0)
+                
+                st.write(f"Experience Required: **{exp_required} years**")
+                st.write(f"Your Estimated Experience: **{exp_yours} years**")
+                
+                if exp_yours >= exp_required:
+                    st.success(f"✅ You meet the experience requirement")
+                else:
+                    years_gap = exp_required - exp_yours
+                    st.warning(f"⚠️ You need {years_gap} more years of experience")
+            
+            except Exception as gap_error:
+                st.error(f"❌ Error analyzing skill gap: {str(gap_error)}")
     
-    # Select job
-    selected_job = st.selectbox(
-        "Select a job to analyze skill gap:",
-        jobs_df['job_title'].unique()
-    )
-    
-    if selected_job:
-        # Analyze gap
-        gap_analysis = matcher.analyze_skill_gap(st.session_state.detected_skills, selected_job)
-        
-        st.markdown(f"### 📊 Skill Gap for {selected_job}")
-        st.markdown(f"Company: **{gap_analysis['company']}**")
-        
-        # Progress bar
-        match_percent = gap_analysis['skill_match_percentage']
-        st.progress(match_percent / 100, text=f"Overall Match: {match_percent:.1f}%")
-        
-        # Metrics
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("You Have", len(gap_analysis['matching_skills']))
-        with col2:
-            st.metric("Total Required", gap_analysis['total_required'])
-        with col3:
-            st.metric("You Need", len(gap_analysis['missing_skills']))
-        
-        # Details
-        st.markdown("---")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("#### ✅ Skills You Have")
-            if gap_analysis['matching_skills']:
-                for skill in gap_analysis['matching_skills']:
-                    st.write(f"✓ {skill}")
-            else:
-                st.info("No matching skills found")
-        
-        with col2:
-            st.markdown("#### ❌ Skills You Need to Learn")
-            if gap_analysis['missing_skills']:
-                for idx, skill in enumerate(gap_analysis['missing_skills'], 1):
-                    st.write(f"{idx}. {skill}")
-            else:
-                st.success("You have all required skills!")
-        
-        # Experience gap
-        st.markdown("---")
-        st.markdown("#### Experience Gap")
-        st.write(f"Experience Required: **{gap_analysis['experience_required']} years**")
-        st.write(f"Your Estimated Experience: **{st.session_state.experience_years} years**")
-        
-        if st.session_state.experience_years >= gap_analysis['experience_required']:
-            st.success(f"✅ You meet the experience requirement")
-        else:
-            years_gap = gap_analysis['experience_required'] - st.session_state.experience_years
-            st.warning(f"⚠️ You need {years_gap} more years of experience")
+    except Exception as e:
+        st.error(f"❌ Error in skill gap analysis: {str(e)}")
 
 
 def about_page():
