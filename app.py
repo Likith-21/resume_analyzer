@@ -8,6 +8,14 @@ import pandas as pd
 import os
 import sys
 from pathlib import Path
+import spacy
+from spacy.cli import download
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # ===== Streamlit Startup Diagnostics =====
 st.info("🔍 Streamlit startup diagnostics running...")
