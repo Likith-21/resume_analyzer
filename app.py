@@ -9,13 +9,25 @@ import os
 import sys
 from pathlib import Path
 
+# Optimize imports - move heavy imports inside functions
+# This speeds up initial page load on Streamlit Cloud
+
 # Add modules to path
 sys.path.append(str(Path(__file__).parent / 'modules'))
 sys.path.append(str(Path(__file__).parent / 'data'))
 
-from modules.resume_parser import ResumeParser
-from modules.skill_extractor import SkillExtractor
-from modules.job_matcher import JobMatcher
+# Lazy import - import only when needed (speeds up initial load)
+def get_resume_parser():
+    from modules.resume_parser import ResumeParser
+    return ResumeParser
+
+def get_skill_extractor_class():
+    from modules.skill_extractor import SkillExtractor
+    return SkillExtractor
+
+def get_job_matcher_class():
+    from modules.job_matcher import JobMatcher
+    return JobMatcher
 
 
 # Page configuration
@@ -317,7 +329,6 @@ def load_jobs_data():
     try:
         jobs_path = Path(__file__).parent / 'data' / 'jobs.csv'
         if not jobs_path.exists():
-            # Try alternative path
             jobs_path = Path(__file__).parent / 'data' / 'enhanced_jobs.csv'
         return pd.read_csv(jobs_path)
     except Exception as e:
@@ -327,14 +338,16 @@ def load_jobs_data():
 
 @st.cache_resource
 def get_skill_extractor():
-    """Get cached skill extractor instance"""
+    """Get cached skill extractor instance (lazy loaded)"""
+    SkillExtractor = get_skill_extractor_class()
     return SkillExtractor()
 
 
 @st.cache_resource
 def get_job_matcher():
-    """Get cached job matcher with pre-loaded jobs"""
+    """Get cached job matcher with pre-loaded jobs (lazy loaded)"""
     jobs_df = load_jobs_data()
+    JobMatcher = get_job_matcher_class()
     return JobMatcher(jobs_df)
 
 
@@ -360,16 +373,6 @@ def save_uploaded_file(uploaded_file, upload_dir='uploads'):
 
 
 def main():
-    # Professional Header
-    st.markdown("""
-    <div style='text-align: center; padding: 2rem 0 1rem 0;'>
-        <h1 class='main-title'>🤖 AI Resume Screening System</h1>
-        <p style='font-size: 1.2rem; color: #718096; font-weight: 500;'>
-            Powered by Machine Learning & Natural Language Processing
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
-    
     # Sidebar with ML Stats
     with st.sidebar:
         st.markdown("""
@@ -379,38 +382,55 @@ def main():
         </div>
         """, unsafe_allow_html=True)
         
+        # Initialize system status placeholder
+        status_placeholder = st.empty()
+        
         # Get real-time system info with error handling
         system_ready = "✅ Ready"
         skill_count = 0
         jobs_count = 0
         
+        with status_placeholder.container():
+            # Show loading status
+            st.markdown("""
+            <div style='text-align: center; color: rgba(255,255,255,0.7);'>
+                <p>🔄 Loading system...</p>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        # Load skills with timeout handling
         try:
             skill_count = len(get_all_skills_cached())
-        except Exception as skill_error:
+        except Exception:
             system_ready = "⚠️ Partial"
+            skill_count = 0
         
+        # Load jobs with timeout handling
         try:
             jobs_df = load_jobs_data()
             jobs_count = len(jobs_df) if jobs_df is not None else 0
-        except Exception as job_error:
+        except Exception:
             if system_ready == "✅ Ready":
                 system_ready = "⚠️ Partial"
+            jobs_count = 0
         
-        st.markdown(f"""
-        <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem;'>
-            <div style='text-align: center; margin-bottom: 1rem;'>
-                <h3 style='color: white; font-size: 2.5rem; margin: 0;'>{system_ready}</h3>
-                <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin: 0.3rem 0;'>System Status</p>
+        # Update status with actual data
+        with status_placeholder.container():
+            st.markdown(f"""
+            <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem;'>
+                <div style='text-align: center; margin-bottom: 1rem;'>
+                    <h3 style='color: white; font-size: 2.5rem; margin: 0;'>{system_ready}</h3>
+                    <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin: 0.3rem 0;'>System Status</p>
+                </div>
+                <hr style='border: 1px solid rgba(255,255,255,0.2); margin: 1rem 0;'>
+                <div style='color: rgba(255,255,255,0.9); font-size: 0.95rem;'>
+                    <p style='margin: 0.5rem 0;'>📚 <strong>81.82%</strong> Accuracy</p>
+                    <p style='margin: 0.5rem 0;'>💡 <strong>{skill_count}</strong> Technical Skills</p>
+                    <p style='margin: 0.5rem 0;'>💼 <strong>{jobs_count}</strong> Jobs Loaded</p>
+                    <p style='margin: 0.5rem 0;'>🤖 <strong>Gradient Boosting</strong></p>
+                </div>
             </div>
-            <hr style='border: 1px solid rgba(255,255,255,0.2); margin: 1rem 0;'>
-            <div style='color: rgba(255,255,255,0.9); font-size: 0.95rem;'>
-                <p style='margin: 0.5rem 0;'>📚 <strong>81.82%</strong> Accuracy</p>
-                <p style='margin: 0.5rem 0;'>💡 <strong>{skill_count}</strong> Technical Skills</p>
-                <p style='margin: 0.5rem 0;'>💼 <strong>{jobs_count}</strong> Jobs Loaded</p>
-                <p style='margin: 0.5rem 0;'>🤖 <strong>Gradient Boosting</strong></p>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
         
         st.markdown("---")
         
@@ -465,6 +485,7 @@ def resume_screening_page():
             
             # Parse resume with error handling
             try:
+                ResumeParser = get_resume_parser()
                 resume_text = ResumeParser.extract_text_from_file(file_path)
                 
                 if not resume_text or len(resume_text.strip()) == 0:
@@ -477,7 +498,8 @@ def resume_screening_page():
             
             # Extract skills with error handling
             try:
-                skill_extractor = get_skill_extractor()
+                SkillExtractor = get_skill_extractor_class()
+                skill_extractor = SkillExtractor()
                 detected_skills = skill_extractor.extract_skills(resume_text)
                 skills_by_category = skill_extractor.extract_skills_by_category(resume_text)
                 education = skill_extractor.extract_education(resume_text)
@@ -489,6 +511,7 @@ def resume_screening_page():
             
             # Extract contact info
             try:
+                ResumeParser = get_resume_parser()
                 email = ResumeParser.extract_email(resume_text)
                 phone = ResumeParser.extract_phone(resume_text)
                 urls = ResumeParser.extract_urls(resume_text)
