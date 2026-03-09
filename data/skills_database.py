@@ -78,10 +78,30 @@ TECHNICAL_SKILLS = {
 }
 
 def get_all_skills():
-    """Get all skills as a flat list"""
+    """Get all skills as a flat list, including Coursera skills"""
     all_skills = []
+    
+    # Add skills from TECHNICAL_SKILLS dictionary
     for category, skills in TECHNICAL_SKILLS.items():
         all_skills.extend(skills)
+    
+    # Add Coursera skills if file exists
+    try:
+        import os
+        from pathlib import Path
+        coursera_file = Path(__file__).parent / 'coursera_skills.txt'
+        
+        if os.path.exists(coursera_file):
+            with open(coursera_file, 'r', encoding='utf-8') as f:
+                coursera_skills = [line.strip() for line in f if line.strip()]
+                # Add unique skills only
+                for skill in coursera_skills:
+                    if skill not in all_skills:
+                        all_skills.append(skill)
+    except Exception as e:
+        # If file doesn't exist or error, just use base skills
+        pass
+    
     return all_skills
 
 def get_skills_by_category(category):

@@ -311,8 +311,17 @@ st.markdown("""
 
 def load_jobs_data():
     """Load jobs data from CSV"""
-    jobs_path = Path(__file__).parent / 'data' / 'jobs.csv'
-    return pd.read_csv(jobs_path)
+    try:
+        jobs_path = Path(__file__).parent / 'data' / 'jobs.csv'
+        if not jobs_path.exists():
+            # Try alternative path
+            jobs_path = Path(__file__).parent / 'data' / 'enhanced_jobs.csv'
+        return pd.read_csv(jobs_path)
+    except Exception as e:
+        st.error(f"Error loading jobs data: {str(e)}")
+        # Return empty DataFrame with expected columns
+        return pd.DataFrame(columns=['job_title', 'company', 'location', 'experience_required', 
+                                     'salary_range', 'skills_required', 'job_description'])
 
 
 def save_uploaded_file(uploaded_file, upload_dir='uploads'):
@@ -341,22 +350,34 @@ def main():
     with st.sidebar:
         st.markdown("""
         <div style='text-align: center; padding: 1rem 0; border-bottom: 2px solid rgba(255,255,255,0.3); margin-bottom: 1.5rem;'>
-            <h2 style='color: white; margin: 0; font-size: 1.8rem;'>📊 ML Statistics</h2>
-            <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin-top: 0.5rem;'>System Performance</p>
+            <h2 style='color: white; margin: 0; font-size: 1.8rem;'>📊 System Status</h2>
+            <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin-top: 0.5rem;'>Live Metrics</p>
         </div>
         """, unsafe_allow_html=True)
         
-        st.markdown("""
+        # Get real-time system info
+        try:
+            from data.skills_database import get_all_skills
+            skill_count = len(get_all_skills())
+            jobs_df = load_jobs_data()
+            jobs_count = len(jobs_df)
+            system_ready = "✅ Ready"
+        except Exception as e:
+            skill_count = 0
+            jobs_count = 0
+            system_ready = "⚠️ Error"
+        
+        st.markdown(f"""
         <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem;'>
             <div style='text-align: center; margin-bottom: 1rem;'>
-                <h3 style='color: white; font-size: 2.5rem; margin: 0;'>81.82%</h3>
-                <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin: 0.3rem 0;'>Model Accuracy</p>
+                <h3 style='color: white; font-size: 2.5rem; margin: 0;'>{system_ready}</h3>
+                <p style='color: rgba(255,255,255,0.8); font-size: 0.9rem; margin: 0.3rem 0;'>System Status</p>
             </div>
             <hr style='border: 1px solid rgba(255,255,255,0.2); margin: 1rem 0;'>
             <div style='color: rgba(255,255,255,0.9); font-size: 0.95rem;'>
-                <p style='margin: 0.5rem 0;'>📚 <strong>162</strong> Training Samples</p>
-                <p style='margin: 0.5rem 0;'>💡 <strong>588</strong> Technical Skills</p>
-                <p style='margin: 0.5rem 0;'>🎯 <strong>4</strong> Datasets Used</p>
+                <p style='margin: 0.5rem 0;'>📚 <strong>81.82%</strong> Accuracy</p>
+                <p style='margin: 0.5rem 0;'>💡 <strong>{skill_count}</strong> Technical Skills</p>
+                <p style='margin: 0.5rem 0;'>💼 <strong>{jobs_count}</strong> Jobs Loaded</p>
                 <p style='margin: 0.5rem 0;'>🤖 <strong>Gradient Boosting</strong></p>
             </div>
         </div>
