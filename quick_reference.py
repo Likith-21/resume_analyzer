@@ -125,6 +125,7 @@ def example_ensemble_prediction():
     
     # Initialize matcher and predictor
     job_matcher = JobMatcher()
+    from model_integration import ModelManager
     predictor = EnsemblePredictor(job_matcher, ModelManager())
     
     # Sample resume

@@ -9,6 +9,19 @@ import os
 import sys
 from pathlib import Path
 
+# ===== Streamlit Startup Diagnostics =====
+st.info("🔍 Streamlit startup diagnostics running...")
+try:
+    cwd = os.getcwd()
+    st.write(f"**Current working directory:** {cwd}")
+    files = os.listdir(cwd)
+    st.write(f"**Files in working directory:** {files}")
+    app_path = Path(__file__).absolute()
+    st.write(f"**App path:** {app_path}")
+except Exception as e:
+    st.error(f"Startup diagnostics failed: {e}")
+
+
 # Optimize imports - move heavy imports inside functions
 # This speeds up initial page load on Streamlit Cloud
 
@@ -359,6 +372,17 @@ def get_all_skills_cached():
         return get_all_skills()
     except Exception:
         return []
+
+
+# Display Main Title - appears immediately on page load
+st.markdown("""
+<div style='text-align: center; padding: 2rem 0 1rem 0;'>
+    <h1 class='main-title'>🤖 AI Resume Screening System</h1>
+    <p style='font-size: 1.2rem; color: #718096; font-weight: 500;'>
+        Powered by Machine Learning & Natural Language Processing
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 
 def save_uploaded_file(uploaded_file, upload_dir='uploads'):
@@ -878,4 +902,11 @@ def about_page():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import streamlit as st
+        st.error(f"❌ App failed to load: {str(e)}")
+        import traceback
+        tb = traceback.format_exc()
+        st.write("<details><summary>Show traceback</summary><pre>" + tb + "</pre></details>", unsafe_allow_html=True)
