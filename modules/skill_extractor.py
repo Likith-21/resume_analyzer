@@ -18,10 +18,15 @@ class SkillExtractor:
         """Initialize skill extractor with skill database"""
         self.all_skills = get_all_skills()
         self.technical_skills = TECHNICAL_SKILLS
+        
+        # Pre-compile regex pattern for all skills (sorted by length, longest first)
+        sorted_skills = sorted(self.all_skills, key=len, reverse=True)
+        skill_pattern = '|'.join(re.escape(skill) for skill in sorted_skills)
+        self.compiled_pattern = re.compile(r'\b(' + skill_pattern + r')\b', re.IGNORECASE)
     
     def extract_skills(self, resume_text: str) -> List[str]:
         """
-        Extract skills from resume text
+        Extract skills from resume text (OPTIMIZED)
         
         Args:
             resume_text: Raw resume text
@@ -29,23 +34,31 @@ class SkillExtractor:
         Returns:
             List of detected skills
         """
-        resume_lower = resume_text.lower()
-        detected_skills = []
+        # Find all skill matches using pre-compiled regex pattern
+        matches = self.compiled_pattern.findall(resume_text)
         
-        # Search for each skill in the resume
-        for skill in self.all_skills:
-            skill_lower = skill.lower()
-            
-            # Use word boundary matching to avoid partial matches
-            if re.search(r'\b' + re.escape(skill_lower) + r'\b', resume_lower):
-                if skill not in detected_skills:
-                    detected_skills.append(skill)
+        if not matches:
+            return []
+        
+        # Create a mapping of lowercase skill names to original case
+        skill_map = {skill.lower(): skill for skill in self.all_skills}
+        
+        # Return unique skills in original case
+        detected_skills = []
+        seen = set()
+        for match in matches:
+            match_lower = match.lower()
+            if match_lower not in seen:
+                # Get the original skill name from database
+                original_skill = skill_map.get(match_lower, match)
+                detected_skills.append(original_skill)
+                seen.add(match_lower)
         
         return detected_skills
     
     def extract_skills_by_category(self, resume_text: str) -> Dict[str, List[str]]:
         """
-        Extract skills grouped by category
+        Extract skills grouped by category (OPTIMIZED)
         
         Args:
             resume_text: Raw resume text
@@ -53,18 +66,27 @@ class SkillExtractor:
         Returns:
             Dictionary with skills grouped by category
         """
-        resume_lower = resume_text.lower()
-        skills_by_category = {}
+        # Get detected skills first
+        detected_skills = self.extract_skills(resume_text)
+        detected_set = {skill.lower() for skill in detected_skills}
         
+        # Create a skill to category mapping for faster lookup
+        skill_to_category = {}
         for category, skills in self.technical_skills.items():
-            category_skills = []
             for skill in skills:
                 skill_lower = skill.lower()
-                if re.search(r'\b' + re.escape(skill_lower) + r'\b', resume_lower):
-                    category_skills.append(skill)
-            
-            if category_skills:
-                skills_by_category[category] = category_skills
+                if skill_lower not in skill_to_category:
+                    skill_to_category[skill_lower] = category
+        
+        # Group detected skills by category
+        skills_by_category = {}
+        for skill in detected_skills:
+            skill_lower = skill.lower()
+            category = skill_to_category.get(skill_lower)
+            if category:
+                if category not in skills_by_category:
+                    skills_by_category[category] = []
+                skills_by_category[category].append(skill)
         
         return skills_by_category
     

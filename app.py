@@ -309,8 +309,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# ============ CACHING FUNCTIONS FOR PERFORMANCE ============
+
+@st.cache_data
 def load_jobs_data():
-    """Load jobs data from CSV"""
+    """Load jobs data from CSV (CACHED)"""
     try:
         jobs_path = Path(__file__).parent / 'data' / 'jobs.csv'
         if not jobs_path.exists():
@@ -318,10 +321,31 @@ def load_jobs_data():
             jobs_path = Path(__file__).parent / 'data' / 'enhanced_jobs.csv'
         return pd.read_csv(jobs_path)
     except Exception as e:
-        st.error(f"Error loading jobs data: {str(e)}")
-        # Return empty DataFrame with expected columns
         return pd.DataFrame(columns=['job_title', 'company', 'location', 'experience_required', 
                                      'salary_range', 'skills_required', 'job_description'])
+
+
+@st.cache_resource
+def get_skill_extractor():
+    """Get cached skill extractor instance"""
+    return SkillExtractor()
+
+
+@st.cache_resource
+def get_job_matcher():
+    """Get cached job matcher with pre-loaded jobs"""
+    jobs_df = load_jobs_data()
+    return JobMatcher(jobs_df)
+
+
+@st.cache_data
+def get_all_skills_cached():
+    """Get all available skills (CACHED)"""
+    try:
+        from data.skills_database import get_all_skills
+        return get_all_skills()
+    except Exception:
+        return []
 
 
 def save_uploaded_file(uploaded_file, upload_dir='uploads'):
@@ -361,11 +385,9 @@ def main():
         jobs_count = 0
         
         try:
-            from data.skills_database import get_all_skills
-            skill_count = len(get_all_skills())
+            skill_count = len(get_all_skills_cached())
         except Exception as skill_error:
             system_ready = "⚠️ Partial"
-            st.sidebar.warning(f"Skills load error: {str(skill_error)[:50]}")
         
         try:
             jobs_df = load_jobs_data()
@@ -373,7 +395,6 @@ def main():
         except Exception as job_error:
             if system_ready == "✅ Ready":
                 system_ready = "⚠️ Partial"
-            st.sidebar.warning(f"Jobs load error: {str(job_error)[:50]}")
         
         st.markdown(f"""
         <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem;'>
@@ -456,7 +477,7 @@ def resume_screening_page():
             
             # Extract skills with error handling
             try:
-                skill_extractor = SkillExtractor()
+                skill_extractor = get_skill_extractor()
                 detected_skills = skill_extractor.extract_skills(resume_text)
                 skills_by_category = skill_extractor.extract_skills_by_category(resume_text)
                 education = skill_extractor.extract_education(resume_text)
@@ -545,15 +566,15 @@ def job_recommendations_page():
         return
     
     try:
-        # Load jobs with error handling
+        # Load jobs with error handling (CACHED)
         jobs_df = load_jobs_data()
         
         if jobs_df is None or len(jobs_df) == 0:
             st.error("❌ No jobs data available. Please check the data files.")
             return
         
-        # Create matcher
-        matcher = JobMatcher(jobs_df)
+        # Get cached matcher with pre-loaded jobs
+        matcher = get_job_matcher()
         
         # Get recommendations with error handling
         try:
@@ -666,7 +687,7 @@ def skill_gap_analysis_page():
             st.error("❌ No jobs data available.")
             return
         
-        matcher = JobMatcher(jobs_df)
+        matcher = get_job_matcher()
         
         # Select job with error handling
         try:

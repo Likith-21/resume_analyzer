@@ -21,14 +21,16 @@ class JobMatcher:
             jobs_df: DataFrame containing job descriptions
         """
         self.jobs_df = jobs_df
-        self.vectorizer = TfidfVectorizer(lowercase=True, stop_words='english')
-        self.job_descriptions_vector = None
-    
-    def prepare_job_descriptions(self):
-        """Vectorize all job descriptions"""
+        self.vectorizer = TfidfVectorizer(lowercase=True, stop_words='english', max_features=1000)
+        
+        # Pre-vectorize all job descriptions on initialization
         self.job_descriptions_vector = self.vectorizer.fit_transform(
             self.jobs_df['job_description'].fillna('')
         )
+    
+    def prepare_job_descriptions(self):
+        """Job descriptions already vectorized in __init__"""
+        pass
     
     def calculate_similarity(self, resume_text: str) -> List[Tuple[int, str, str, float]]:
         """
@@ -40,9 +42,6 @@ class JobMatcher:
         Returns:
             List of tuples (job_id, job_title, company, similarity_score)
         """
-        if self.job_descriptions_vector is None:
-            self.prepare_job_descriptions()
-        
         # Vectorize resume
         resume_vector = self.vectorizer.transform([resume_text])
         
